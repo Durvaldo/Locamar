@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 function HomePage() {
     return (
         <section className="bg-locamar-black">  
