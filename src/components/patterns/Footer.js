@@ -13,10 +13,8 @@ const Footer = ({className}) => {
                     </div>
                     <div className="flex flex-col mx-1 my-3 rounded-sm gap-1">
                         <h2 className="text-locamar-white text-xl font-bold">Contato</h2>
-                        <p className="text-locamar-white">
-                            0800 244 4444
-                            (38) 3222-4444
-                        </p>
+                        <p className="text-locamar-white">0800 244 4444</p>
+                        <p className="text-locamar-white">(38) 3222-4444</p>
                     </div>
                     <div className="flex flex-col mx-1 my-3 rounded-sm gap-1">
                         <h2 className="text-locamar-white text-xl font-bold">Horário de Atendimento</h2>
