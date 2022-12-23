@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react";
 
-const Header = () => {
+const Header = ({className}) => {
 
     const [botaoStatus, setBotaoStatus] = useState('hidden');
     const abrirDropDown = () => {
@@ -12,10 +12,9 @@ const Header = () => {
             setBotaoStatus('hidden')
         }
     }
-
     return (
-        <section className="bg-locamar-primary shadow-sm shadow-gray-500">  
-            <div className="py-3 flex justify-around items-center">
+        <header className={className}>  
+            <div className="py-3 flex justify-around items-center bg-locamar-primary shadow-sm shadow-gray-500">
                 <img src="/images/locamar-logo.png" alt="Logo Locamar" className="max-h-20 md:max-h-40"/>
                 <nav>
                     <ul className="text-center">
@@ -30,7 +29,7 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
-        </section>
+        </header>
     )
 }
 
