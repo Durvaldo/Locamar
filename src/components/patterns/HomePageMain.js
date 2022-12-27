@@ -8,7 +8,7 @@ const HomePageMain = ({className}) => {
                 <div className="lg:max-w-2xl flex flex-col justify-around lg:pr-6 lg:-mr-3">
                     <h1 className="font-bold text-5xl">Sobre Nós</h1>
                     <p className="text-justify my-6">
-                        A <strong>Locamar Locações</strong> iniciou suas atividades na cidade de Montes Claros, no ano de 2017, atuando na Locação de Containers Almoxarifados e Banheiros Ecológicos. Até então, sendo recursos pouco difundidos na nossa região e que hoje se mostram indispensáveis nas obras. Somos fraqueados no Norte de Minas da <strong>Container Segurança</strong>, empresa que revolucionou o seguimento, criando a solução de armazenamento móvel, simples, barata, segura e ágil e que hoje atende mais de 1.000 cidades através de sua rede. <br/>
+                        A <strong>Locamar Locações</strong> iniciou suas atividades na cidade de Montes Claros, no ano de 2017, atuando na Locação de Containers Almoxarifados e Banheiros Ecológicos. Até então, sendo recursos pouco difundidos na nossa região e que hoje se mostram indispensáveis nas obras. <br/>
                         Atualmente também nos especializamos no aluguel de caçambas estacionárias para coleta de entulhos (Disk entulho) na cidade de Montes Claros. Apesar de sermos novos nesse seguimento, trazemos o know-how acumulado por quase uma década da Ricks Caçambas.
                     </p>
                     <div className="self-center mt-6 lg:mt-0">
