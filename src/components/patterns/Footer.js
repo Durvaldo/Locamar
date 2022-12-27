@@ -6,7 +6,7 @@ const Footer = ({className}) => {
         <footer className={className}>
             <div className="text-center bg-locamar-black">
                 <div className="bg-gray-500 flex justify-center"><img src="/images/locamar-logo.png" alt="Logo Locamar" className="max-h-20 md:max-h-40"/></div>
-                <div className="flex flex-col sm:flex-row items-center justify-around flex-wrap">
+                <div className="flex flex-col sm:flex-row items-center sm:items-start justify-around flex-wrap">
                     <div className="flex flex-col mx-1 my-3 rounded-sm gap-1">
                         <h2 className="text-locamar-white text-xl font-bold">Endereço</h2>
                         <p className="text-locamar-white">Rua Silas Canelas, 92, Bairro Cidade Nova – Montes Claros – MG</p>
@@ -27,7 +27,7 @@ const Footer = ({className}) => {
                     </div>
                 </div>
                 <div>
-                    <p className="text-locamar-white text-center mb-0">Desenvolvido por Durvaldo Gonçalves Marques</p>
+                    <p className="text-locamar-white text-center mt-3 mb-0">Desenvolvido por Durvaldo Gonçalves Marques</p>
                 </div>
             </div>
         </footer>    
