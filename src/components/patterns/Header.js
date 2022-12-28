@@ -25,7 +25,7 @@ const Header = ({className}) => {
                         <a href="#" className="locamar-tag">Inicio</a>
                         <a href="#sobre-nos" className="locamar-tag">Sobre nós</a>
                         <a href="#nosso-servico" className="locamar-tag">Nossos Serviços</a>
-                        <a href="#3" className="locamar-tag">Onde Estamos</a>
+                        <a href="#onde-estamos" className="locamar-tag">Onde Estamos</a>
                     </ul>
                 </nav>
             </div>

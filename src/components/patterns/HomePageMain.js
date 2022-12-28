@@ -19,21 +19,21 @@ const HomePageMain = ({className}) => {
                 <div className="self-center mt-4 lg:mt-0"><img className="rounded-lg shadow-sm shadow-locamar-black" src="/images/cacamba.png" alt="cacamba"/></div>
             </section>
             <section id="missao" className="container flex flex-col lg:flex-row align-between justify-around items-center lg:items-start flex-wrap sm:flex-nowrap lg:mx-3 gap-5">
-                <div className="text-center flex flex-col items-center flex-1">
+                <div className="missao-card flex-1">
                     <FontAwesomeIcon className="fa-3x" icon={faBullseye}/>
                     <div>
-                        <h2 className="text-2xl font-bold my-2">Missão</h2>
+                        <h2 className="my-2">Missão</h2>
                         <p>Oferecer o serviço de locação de equipamentos para obras, buscando excelência e a satisfação de nossos clientes</p>
                     </div>
                 </div>
-                <div className="text-center flex flex-col items-center flex-1">
+                <div className="missao-card flex-1">
                     <FontAwesomeIcon className="fa-3x" icon={faEye}/>
                     <div>
                         <h2 className="text-2xl font-bold my-2">Visão</h2>
                         <p>Ser referência em inovação e diferenciação em soluções ambientais e locações de equipamentos, disseminando a cultura e as boas práticas de sustentabilidade.</p>
                     </div>
                 </div>
-                <div className="text-center flex flex-col items-center shrink-0">
+                <div className="missao-card shrink-0">
                     <FontAwesomeIcon className="fa-3x" icon={faScaleBalanced}/>
                     <div>
                         <h2 className="text-2xl font-bold my-2">Valores</h2>
@@ -73,6 +73,12 @@ const HomePageMain = ({className}) => {
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+            <section id="onde-estamos" className="container">
+                <h1 className="text-center pb-10">Onde Estamos</h1>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.7659999544917!2d-43.865703499999995!3d-16.7385235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab54a024159c5d%3A0xdf72fbcf207023bc!2sR.%20Silas%20Canela%2C%2092%20-%20Vila%20Guilhermina%2C%20Montes%20Claros%20-%20MG%2C%2039401-009!5e0!3m2!1spt-BR!2sbr!4v1653606423813!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
         </main>

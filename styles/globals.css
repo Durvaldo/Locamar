@@ -9,6 +9,12 @@
             font-bold
         ;
     }
+    h2 {
+        @apply
+            text-2xl 
+            font-bold
+        ;
+    }
 }
 
 @layer components {
@@ -30,6 +36,15 @@
             p-5
             m-2
             max-w-screen-xl
+        ;
+    }
+
+    .missao-card {
+        @apply
+            text-center 
+            flex 
+            flex-col 
+            items-center
         ;
     }
 
