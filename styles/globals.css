@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    h1 {
+        @apply
+            text-5xl
+            font-bold
+        ;
+    }
+}
+
 @layer components {
     .locamar-tag {
         @apply 
@@ -18,20 +27,22 @@
 
     .container {
         @apply
-        p-5
-        m-2
-        max-w-screen-xl
+            p-5
+            m-2
+            max-w-screen-xl
+        ;
     }
 
     .container-card {
         @apply
-        bg-locamar-white 
-        rounded-lg 
-        p-2
-        flex
-        items-center
-        gap-2
-        hover:scale-105
-        cursor-pointer
+            bg-locamar-white 
+            rounded-lg 
+            p-2
+            flex
+            items-center
+            gap-2
+            hover:scale-105
+            cursor-pointer
+        ;
     }
 }

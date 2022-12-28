@@ -7,7 +7,7 @@ const HomePageMain = ({className}) => {
         <main className={`${className} flex flex-col items-center`} id="sobre-nos">
             <section className="container flex flex-row justify-center flex-wrap lg:flex-nowrap lg:mx-3 gap-5">
                 <div className="flex flex-col justify-around lg:pr-6 lg:-mr-3">
-                    <h1 className="font-bold text-5xl">Sobre Nós</h1>
+                    <h1>Sobre Nós</h1>
                     <p className="text-justify my-6">
                         A <strong>Locamar Locações</strong> iniciou suas atividades na cidade de Montes Claros, no ano de 2017, atuando na Locação de Containers Almoxarifados e Banheiros Ecológicos. Até então, sendo recursos pouco difundidos na nossa região e que hoje se mostram indispensáveis nas obras. <br/>
                         Atualmente também nos especializamos no aluguel de caçambas estacionárias para coleta de entulhos (Disk entulho) na cidade de Montes Claros. Apesar de sermos novos nesse seguimento, trazemos o know-how acumulado por quase uma década da Ricks Caçambas.
@@ -49,7 +49,7 @@ const HomePageMain = ({className}) => {
             </section>
             <section id="nosso-servico" className="bg-locamar-black w-full flex justify-center">
                 <div className="container">
-                    <h1 className="text-locamar-white font-bold text-5xl pb-5">Nossos Serviços</h1>
+                    <h1 className="text-locamar-white text-center pb-5">Nossos Serviços</h1>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
                         <div className="container-card">
                             <img className="max-h-16" src="/images/cacamba-icon.png" alt="cacamba"/>
