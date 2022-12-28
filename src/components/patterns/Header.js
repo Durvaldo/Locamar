@@ -24,7 +24,7 @@ const Header = ({className}) => {
                     <ul className={`${botaoStatus} md:flex flex-col md:flex-row gap-2`} id='drop-down-menu'>
                         <a href="#" className="locamar-tag">Inicio</a>
                         <a href="#sobre-nos" className="locamar-tag">Sobre nós</a>
-                        <a href="#2" className="locamar-tag">Nossos Serviços</a>
+                        <a href="#nosso-servico" className="locamar-tag">Nossos Serviços</a>
                         <a href="#3" className="locamar-tag">Onde Estamos</a>
                     </ul>
                 </nav>

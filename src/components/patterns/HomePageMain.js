@@ -5,7 +5,7 @@ import { faBullseye, faEye, faScaleBalanced } from "@fortawesome/free-solid-svg-
 const HomePageMain = ({className}) => {
     return (
         <main className={`${className} flex flex-col items-center`} id="sobre-nos">
-            <section className="flex flex-row justify-center flex-wrap lg:flex-nowrap mx-5 lg:mx-3 mt-5 mb-7 gap-5 max-w-screen-xl">
+            <section className="container flex flex-row justify-center flex-wrap lg:flex-nowrap lg:mx-3 gap-5">
                 <div className="flex flex-col justify-around lg:pr-6 lg:-mr-3">
                     <h1 className="font-bold text-5xl">Sobre Nós</h1>
                     <p className="text-justify my-6">
@@ -18,22 +18,22 @@ const HomePageMain = ({className}) => {
                 </div>
                 <div className="self-center mt-4 lg:mt-0"><img className="rounded-lg shadow-sm shadow-locamar-black" src="/images/cacamba.png" alt="cacamba"/></div>
             </section>
-            <section id="missao" className="flex flex-col lg:flex-row align-between justify-around items-center lg:items-start flex-wrap sm:flex-nowrap max-w-screen-xl mx-5 lg:mx-3 my-6 gap-6">
-                <div class="text-center flex flex-col items-center flex-1">
+            <section id="missao" className="container flex flex-col lg:flex-row align-between justify-around items-center lg:items-start flex-wrap sm:flex-nowrap lg:mx-3 gap-5">
+                <div className="text-center flex flex-col items-center flex-1">
                     <FontAwesomeIcon className="fa-3x" icon={faBullseye}/>
                     <div>
                         <h2 className="text-2xl font-bold my-2">Missão</h2>
                         <p>Oferecer o serviço de locação de equipamentos para obras, buscando excelência e a satisfação de nossos clientes</p>
                     </div>
                 </div>
-                <div class="text-center flex flex-col items-center flex-1">
+                <div className="text-center flex flex-col items-center flex-1">
                     <FontAwesomeIcon className="fa-3x" icon={faEye}/>
                     <div>
                         <h2 className="text-2xl font-bold my-2">Visão</h2>
                         <p>Ser referência em inovação e diferenciação em soluções ambientais e locações de equipamentos, disseminando a cultura e as boas práticas de sustentabilidade.</p>
                     </div>
                 </div>
-                <div class="text-center flex flex-col items-center shrink-0">
+                <div className="text-center flex flex-col items-center shrink-0">
                     <FontAwesomeIcon className="fa-3x" icon={faScaleBalanced}/>
                     <div>
                         <h2 className="text-2xl font-bold my-2">Valores</h2>
@@ -44,6 +44,34 @@ const HomePageMain = ({className}) => {
                             <li>Atitude crítica, dedicação para com a qualidade e melhoramento pessoal;</li>
                             <li>Empenho para com os clientes e parceiros;</li>
                         </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="nosso-servico" className="bg-locamar-black w-full flex justify-center">
+                <div className="container">
+                    <h1 className="text-locamar-white font-bold text-5xl pb-5">Nossos Serviços</h1>
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                        <div className="container-card">
+                            <img className="max-h-16" src="/images/cacamba-icon.png" alt="cacamba"/>
+                            <div>
+                                <h3 className="text-lg font-bold">Locação de caçambas estacionárias</h3>
+                                <p> O descarte correto de materiais é de fundamental importância. Pensando nisso, dispomos de grande quantidade de caçambas estacionárias para locação. </p>
+                            </div>
+                        </div>
+                        <div className="container-card">
+                            <img className="max-h-16" src="/images/banheiro-ecologico-icon.png" alt="Banheiros"/>
+                            <div>
+                                <h3 className="text-lg font-bold">Banheiros ecológicos</h3>
+                                <p>Aluguel de Banheiros Ecológicos, muito mais economia, higiene e praticidade na sua obra</p>
+                            </div>
+                        </div>
+                        <div className="container-card">
+                            <img className="max-h-16" src="/images/container-icon.png" alt="Container"/>
+                            <div>
+                                <h3 className="text-lg font-bold">Locação de Containers Almoxarifado</h3>
+                                <p> Nossos containers almoxarifado dão a tranquilidade e a facilidade para guardar equipamentos e pertences durante a construção. </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
