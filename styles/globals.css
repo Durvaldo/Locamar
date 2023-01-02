@@ -33,24 +33,28 @@
             lg:bg-locamar-primary 
             left-2/4 lg:left-0 
             -translate-x-1/2 
+            translate-y-3 
             lg:translate-x-0 
-            rounded-md
+            lg:translate-y-0
+            rounded-md 
         ;
     }
 
     .nav-itens {
         @apply 
-            text-center 
-            text-[#121619C0] 
-            hover:text-locamar-white
-            hover:bg-gray-600
-            lg:hover:bg-transparent 
-            font-bold 
-            lg:my-1 lg:mx-5
             px-4 py-2
             lg:w-0
             lg:p-0
+            lg:my-1 lg:mx-5
             lg:text-xl
+            text-center 
+            font-bold 
+            hover:bg-gray-600
+            lg:hover:bg-transparent 
+            text-[#121619C0] 
+            hover:text-locamar-white
+            first:rounded-t-md 
+            last:rounded-b-md
         ;
     }
 

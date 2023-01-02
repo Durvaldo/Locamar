@@ -19,7 +19,7 @@ const Header = ({className}) => {
         <header className={className}>  
             <div className="p-3 flex justify-around items-center bg-locamar-primary shadow-sm shadow-gray-500">
                 <img src="/images/locamar-logo.png" alt="Logo Locamar" className="max-h-20 lg:max-h-40"/>
-                <nav className="relative w-1/2 lg:w-fit">
+                <nav className="relative px-20 lg:px-0 lg:w-fit">
                     <ul className="text-center">
                         <li onClick={abrirDropDown}><FontAwesomeIcon className="lg:hidden cursor-pointer scale-x-150" icon={faBars} />
                         </li>
