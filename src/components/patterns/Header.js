@@ -4,16 +4,16 @@ import { useState } from "react";
 
 const Header = ({className}) => {
 
-    const [botaoStatus, setBotaoStatus] = useState('hidden');
+    const [botaoStatus, setBotaoStatus] = useState('hidden lg:block');
     const abrirDropDown = () => {
-        if(botaoStatus == 'hidden') {
-            setBotaoStatus('')
+        if(botaoStatus == 'hidden lg:block') {
+            setBotaoStatus('lg:block')
         } else {
-            setBotaoStatus('hidden')
+            setBotaoStatus('hidden lg:block')
         }
     }
     const fecharDropDown = () => {
-        setBotaoStatus('hidden')
+        setBotaoStatus('hidden lg:block')
     }
     return (
         <header className={className}>  

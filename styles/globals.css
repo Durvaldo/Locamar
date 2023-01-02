@@ -19,8 +19,7 @@
 
 @layer components {
     .nav-dropdown {
-        @apply
-            lg:block 
+        @apply 
             absolute 
             lg:relative 
             flex flex-col 
