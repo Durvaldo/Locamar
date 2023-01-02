@@ -18,6 +18,26 @@
 }
 
 @layer components {
+    .nav-dropdown {
+        @apply
+            lg:block 
+            absolute 
+            lg:relative 
+            flex flex-col 
+            lg:flex-row 
+            shadow-lg 
+            lg:shadow-none 
+            shadow-gray-500 
+            bg-locamar-white 
+            min-w-[200px] 
+            lg:bg-locamar-primary 
+            left-2/4 lg:left-0 
+            -translate-x-1/2 
+            lg:translate-x-0 
+            rounded-md
+        ;
+    }
+
     .nav-itens {
         @apply 
             text-center 

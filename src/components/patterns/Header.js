@@ -24,7 +24,7 @@ const Header = ({className}) => {
                         <li onClick={abrirDropDown}><FontAwesomeIcon className="lg:hidden cursor-pointer scale-x-150" icon={faBars} />
                         </li>
                     </ul>
-                    <ul className={`${botaoStatus} lg:block absolute lg:relative flex flex-col lg:flex-row shadow-lg lg:shadow-none shadow-gray-500 bg-locamar-white min-w-[200px] lg:bg-locamar-primary left-2/4 lg:left-0 -translate-x-1/2 lg:translate-x-0 rounded-md`} onClick={fecharDropDown}>
+                    <ul className={`${botaoStatus} nav-dropdown`} onClick={fecharDropDown}>
                         <a href="#" className="nav-itens">Inicio</a>
                         <a href="#sobre-nos" className="nav-itens">Sobre nós</a>
                         <a href="#nosso-servico" className="nav-itens">Nossos Serviços</a>
