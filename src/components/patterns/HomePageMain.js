@@ -81,6 +81,12 @@ const HomePageMain = ({className}) => {
                     </div>
                     <div>
                         <h2>Fale conosco:</h2>
+                        <form>
+                            <div>
+                                <label htmlFor="nome-cliente">Nome:</label>
+                                <input className="bg-locamar-white block px-2 py-1 w-fit rounded border border-locamar-black" placeholder="Digite seu nome" id="nome-cliente" name="nome"></input>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
