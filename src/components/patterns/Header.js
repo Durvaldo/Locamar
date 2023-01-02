@@ -7,25 +7,28 @@ const Header = ({className}) => {
     const [botaoStatus, setBotaoStatus] = useState('hidden');
     const abrirDropDown = () => {
         if(botaoStatus == 'hidden') {
-            setBotaoStatus('flex')
+            setBotaoStatus('')
         } else {
             setBotaoStatus('hidden')
         }
     }
+    const fecharDropDown = () => {
+        setBotaoStatus('hidden')
+    }
     return (
         <header className={className}>  
-            <div className="py-3 flex justify-around items-center bg-locamar-primary shadow-sm shadow-gray-500">
-                <img src="/images/locamar-logo.png" alt="Logo Locamar" className="max-h-20 md:max-h-40"/>
-                <nav>
+            <div className="p-3 flex justify-around items-center bg-locamar-primary shadow-sm shadow-gray-500">
+                <img src="/images/locamar-logo.png" alt="Logo Locamar" className="max-h-20 lg:max-h-40"/>
+                <nav className="relative w-1/2 lg:w-fit">
                     <ul className="text-center">
-                        <li onClick={abrirDropDown}><FontAwesomeIcon className="md:hidden cursor-pointer mb-4 scale-x-150" icon={faBars} />
+                        <li onClick={abrirDropDown}><FontAwesomeIcon className="lg:hidden cursor-pointer scale-x-150" icon={faBars} />
                         </li>
                     </ul>
-                    <ul className={`${botaoStatus} md:flex flex-col md:flex-row gap-2`} id='drop-down-menu'>
-                        <a href="#" className="locamar-tag">Inicio</a>
-                        <a href="#sobre-nos" className="locamar-tag">Sobre nós</a>
-                        <a href="#nosso-servico" className="locamar-tag">Nossos Serviços</a>
-                        <a href="#onde-estamos" className="locamar-tag">Onde Estamos</a>
+                    <ul className={`${botaoStatus} lg:block absolute lg:relative flex flex-col lg:flex-row shadow-lg lg:shadow-none shadow-gray-500 bg-locamar-white min-w-[200px] lg:bg-locamar-primary left-2/4 lg:left-0 -translate-x-1/2 lg:translate-x-0 rounded-md`} onClick={fecharDropDown}>
+                        <a href="#" className="nav-itens">Inicio</a>
+                        <a href="#sobre-nos" className="nav-itens">Sobre nós</a>
+                        <a href="#nosso-servico" className="nav-itens">Nossos Serviços</a>
+                        <a href="#onde-estamos" className="nav-itens">Onde Estamos</a>
                     </ul>
                 </nav>
             </div>

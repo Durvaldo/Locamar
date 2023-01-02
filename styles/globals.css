@@ -18,16 +18,19 @@
 }
 
 @layer components {
-    .locamar-tag {
+    .nav-itens {
         @apply 
-            bg-locamar-white 
             text-center 
-            rounded-full 
-            px-2 
-            shadow-sm 
-            shadow-gray-500 
-            cursor-pointer 
-            hover:scale-105
+            text-[#121619C0] 
+            hover:text-locamar-white
+            hover:bg-gray-600
+            lg:hover:bg-transparent 
+            font-bold 
+            lg:my-1 lg:mx-5
+            px-4 py-2
+            lg:w-0
+            lg:p-0
+            lg:text-xl
         ;
     }
 

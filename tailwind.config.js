@@ -8,8 +8,8 @@ module.exports = {
     extend: {
       colors: {
         locamar: {
-            white: '#FFF7F8',
-            primary: '#FF5C33',
+            white: '#F6F8FF',
+            primary: '#FF6F4B',
             secundary: '#719150',
             yellow: '#FFFF47',
             black: '#121619',
