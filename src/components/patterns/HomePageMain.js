@@ -107,7 +107,7 @@ const HomePageMain = ({className}) => {
                             <img className="max-h-16" src="/images/cacamba-icon.png" alt="cacamba"/>
                             <div>
                                 <h3 className="text-lg font-bold">Locação de caçambas estacionárias</h3>
-                                <p> O descarte correto de materiais é de fundamental importância. Pensando nisso, dispomos de grande quantidade de caçambas estacionárias para locação. </p>
+                                <p> O descarte correto de materiais é de fundamental importância. Pensando nisso, dispomos de grandes quantidades de caçambas estacionárias para locação. </p>
                             </div>
                         </div>
                         <div className="container-card">
