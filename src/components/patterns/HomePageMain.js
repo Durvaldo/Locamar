@@ -81,24 +81,26 @@ const HomePageMain = ({className}) => {
                     </div>
                     <div>
                         <h2 className="mb-3">Fale conosco:</h2>
-                        <form>
+                        <form action="https://formsubmit.co/financeiro@locamarlocacoes.com.br" method="POST">
                             <div class="grid lg:grid-cols-2 gap-4">
                                 <div className="">
                                     <label htmlFor="nome-cliente">Nome:</label>
-                                    <input type="text" className="main-input" placeholder="Digite seu nome" id="nome-cliente" name="nome" required></input>
+                                    <input type="text" className="main-input" placeholder="Digite seu nome" id="nome-cliente" name="Nome" required></input>
                                 </div>
                                 <div className="">
                                     <label htmlFor="telefone-cliente">Telefone:</label>
-                                    <input type="number" className="main-input" placeholder="(00) 9 0000-0000" id="telefone-cliente" name="telefone" required></input>
+                                    <input type="number" className="main-input" placeholder="(00) 9 0000-0000" id="telefone-cliente" name="Telefone" required></input>
                                 </div>
                                 <div className="lg:col-span-2">
                                     <label htmlFor="email-cliente">Email:</label>
-                                    <input type="email" className="main-input" placeholder="atendimento@locamarlocacoes.com.br" id="email-cliente" name="email" required></input>
+                                    <input type="email" className="main-input" placeholder="atendimento@locamarlocacoes.com.br" id="email-cliente" name="Email" required></input>
                                 </div>
                                 <div className="lg:col-span-2">
                                     <label htmlFor="orcamento-cliente">Orçamento:</label>
-                                    <textarea type="email" className="main-input" id="orcamento-cliente" name="email" required></textarea>
+                                    <textarea type="email" className="main-input" id="orcamento-cliente" name="Orcamento" required></textarea>
                                 </div>
+                                <input type="hidden" name="_next" value="https://locamar.vercel.app/"></input>
+                                <input type="hidden" name="_captcha" value="false"></input>
                             </div>
                             <button type="submit" className="bg-locamar-secundary py-1 px-2 mt-4 rounded-lg font-bold text-locamar-white shadow shadow-gray-500 hover:scale-105">Enviar orçamento</button>
                         </form>
