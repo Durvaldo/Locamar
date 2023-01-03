@@ -80,12 +80,27 @@ const HomePageMain = ({className}) => {
                         <iframe className="absolute top-[2%] left-[2%] w-[96%] h-[96%]" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15283.062997051366!2d-43.865758!3d-16.738536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdb3a432fa15d9977!2zTG9jYW1hciBMb2Nhw6fDtWVz!5e0!3m2!1spt-BR!2sbr!4v1672244854474!5m2!1spt-BR!2sbr" width="600" height="450" style={{ border:0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div>
-                        <h2>Fale conosco:</h2>
+                        <h2 className="mb-3">Fale conosco:</h2>
                         <form>
-                            <div>
-                                <label htmlFor="nome-cliente">Nome:</label>
-                                <input className="bg-locamar-white block px-2 py-1 w-fit rounded border border-locamar-black" placeholder="Digite seu nome" id="nome-cliente" name="nome"></input>
+                            <div class="grid lg:grid-cols-2 gap-4">
+                                <div className="">
+                                    <label htmlFor="nome-cliente">Nome:</label>
+                                    <input type="text" className="main-input" placeholder="Digite seu nome" id="nome-cliente" name="nome" required></input>
+                                </div>
+                                <div className="">
+                                    <label htmlFor="telefone-cliente">Telefone:</label>
+                                    <input type="number" className="main-input" placeholder="(00) 9 0000-0000" id="telefone-cliente" name="telefone" required></input>
+                                </div>
+                                <div className="lg:col-span-2">
+                                    <label htmlFor="email-cliente">Email:</label>
+                                    <input type="email" className="main-input" placeholder="atendimento@locamarlocacoes.com.br" id="email-cliente" name="email" required></input>
+                                </div>
+                                <div className="lg:col-span-2">
+                                    <label htmlFor="orcamento-cliente">Orçamento:</label>
+                                    <textarea type="email" className="main-input" id="orcamento-cliente" name="email" required></textarea>
+                                </div>
                             </div>
+                            <button type="submit" className="bg-locamar-secundary py-1 px-2 mt-4 rounded-lg font-bold text-locamar-white shadow shadow-gray-500 hover:scale-105">Enviar orçamento</button>
                         </form>
                     </div>
                 </div>

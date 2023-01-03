@@ -85,4 +85,18 @@
             cursor-pointer
         ;
     }
+
+    .main-input {
+        @apply
+            bg-locamar-white 
+            block 
+            px-2 
+            py-1 
+            mt-1 
+            w-full 
+            rounded 
+            border 
+            border-locamar-black
+        ;
+    }
 }
