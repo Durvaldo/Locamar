@@ -1,6 +1,6 @@
 import Footer from "../src/components/patterns/Footer";
 import Header from "../src/components/patterns/Header";
-import HomePageMain from "../src/components/patterns/HomePageMain";
+import HomePageMain from "../src/components/main_pages/HomePageMain";
 
 function HomePage() {
 

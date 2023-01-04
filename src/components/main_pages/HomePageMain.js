@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faBullseye, faEye, faScaleBalanced} from "@fortawesome/free-solid-svg-icons"
-import MainForm from "./MainForm"
+import MainForm from "../patterns/MainForm"
 import Link from "next/link"
 
 const HomePageMain = ({className}) => {

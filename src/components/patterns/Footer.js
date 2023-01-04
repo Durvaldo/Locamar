@@ -13,7 +13,7 @@ const Footer = ({className}) => {
                     </div>
                     <div className="flex flex-col mx-1 my-3 rounded-sm gap-1">
                         <h2 className="text-xl font-bold">Contato</h2>
-                        <p>0800 244 4444 <FontAwesomeIcon className="text-lime-500" icon={faWhatsapp}/></p>
+                        <p><FontAwesomeIcon className="text-lime-500" icon={faWhatsapp}/> 0800 244 4444</p>
                         <p>(38) 3222-4444</p>
                         <p>atendimento@locamarlocacoes.com.br</p>
                     </div>
