@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faBullseye, faEye, faScaleBalanced} from "@fortawesome/free-solid-svg-icons"
 import MainForm from "./MainForm"
+import Link from "next/link"
 
 const HomePageMain = ({className}) => {
     return (
@@ -50,27 +51,27 @@ const HomePageMain = ({className}) => {
                 <div className="container">
                     <h1 className="text-locamar-white text-center pb-5">Nossos Serviços</h1>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-                        <div className="container-card">
+                        <Link className="container-card" href="/cacamba">
                             <img className="max-h-16" src="/images/cacamba-icon.png" alt="cacamba"/>
                             <div>
                                 <h3 className="text-lg font-bold">Locação de caçambas estacionárias</h3>
                                 <p> O descarte correto de materiais é de fundamental importância. Pensando nisso, dispomos de grandes quantidades de caçambas estacionárias para locação. </p>
                             </div>
-                        </div>
-                        <div className="container-card">
+                        </Link>
+                        <Link href="/banheiro-ecologico" className="container-card">
                             <img className="max-h-16" src="/images/banheiro-ecologico-icon.png" alt="Banheiros"/>
                             <div>
                                 <h3 className="text-lg font-bold">Banheiros ecológicos</h3>
                                 <p>Aluguel de Banheiros Ecológicos, muito mais economia, higiene e praticidade na sua obra</p>
                             </div>
-                        </div>
-                        <div className="container-card">
+                        </Link>
+                        <Link href="/container" className="container-card">
                             <img className="max-h-16" src="/images/container-icon.png" alt="Container"/>
                             <div>
                                 <h3 className="text-lg font-bold">Locação de Containers Almoxarifado</h3>
                                 <p> Nossos containers almoxarifado dão a tranquilidade e a facilidade para guardar equipamentos e pertences durante a construção. </p>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </section>
