@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 
 const Footer = ({className}) => {
     return(
@@ -13,7 +13,7 @@ const Footer = ({className}) => {
                     </div>
                     <div className="flex flex-col mx-1 my-3 rounded-sm gap-1">
                         <h2 className="text-xl font-bold">Contato</h2>
-                        <p>0800 244 4444</p>
+                        <p>0800 244 4444 <FontAwesomeIcon className="text-lime-500" icon={faWhatsapp}/></p>
                         <p>(38) 3222-4444</p>
                         <p>atendimento@locamarlocacoes.com.br</p>
                     </div>
