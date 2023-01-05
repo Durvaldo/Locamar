@@ -6,10 +6,10 @@ const CacambaMainPage = ({className}) => {
 
     return (
         <main className={`${className} flex flex-col items-center`}>
-            <section className="container flex flex-col lg:flex-row lg:justify-around">
+            <section className="container flex flex-col lg:flex-row lg:justify-around underline ">
                 <h1>Aluguel de cacamba</h1>
             </section>
-            <section className="bg-gray-300 w-full flex justify-center">
+            <section className="w-full flex justify-center">
                 <div className="container flex flex-col lg:flex-row justify-between items-center gap-5">
                     <div className="flex flex-col gap-5 max-w-3xl">
                         <h2>Precisando fazer descarte de entulho em Montes Claros? Conte com a Locamar Locações!</h2>
@@ -23,28 +23,38 @@ const CacambaMainPage = ({className}) => {
                     </div>
                 </div>
             </section>
-            <section className="hidden container">
-                <h1>Como Funciona</h1>
-                <div>
-                    <FontAwesomeIcon icon={faDumpster}/>
-                    <h2>Nossas Caçambas</h2>
-                    <p>Nossas caçambas possuem volume de 6 metros cúbicos, tendo capacidade para 7 toneladas de material.</p>
-                </div>
-                <div>
-                    <FontAwesomeIcon icon={faCalendar}/>
-                    <FontAwesomeIcon icon={fa7}/>
-                    <h2>A Estadia</h2>
-                    <p>O tempo de duração da locação é de 7 dias corridos. Períodos maiores podem ser negociados.</p>
-                </div>
-                <div>
-                    <FontAwesomeIcon icon={faBrazilianRealSign}/>
-                    <h2>Preço</h2>
-                    <p>O preço dependerá da localização da caçamba. Horários especiais também podem ser combinados.</p>
-                </div>
-                <div>
-                    <FontAwesomeIcon icon={faArrowsSpin}/>
-                    <h2>Prorrogação, troca ou retirada</h2>
-                    <p>Ao final do prazo combinado, o cliente tem a opção de solicitar prorrogação do prazo, contratar a troca da caçamba ou confirmar a retirada da mesma.</p>
+            <section className="w-full flex justify-center bg-gray-300">
+                <div className="container">
+                    <h1>Como Funciona</h1>
+                    <div>
+                        <span className="rounded-full p-1 bg-locamar-primary fa-4x">
+                            <FontAwesomeIcon className="fa-fw" icon={faDumpster}/>
+                        </span>
+                        <h2>Nossas Caçambas</h2>
+                        <p>Nossas caçambas possuem volume de 6 metros cúbicos, tendo capacidade para 7 toneladas de material.</p>
+                    </div>
+                    <div>
+                        <span className="rounded-full px-1 pb-1  bg-locamar-primary fa-4x">
+                            <FontAwesomeIcon className="fa-fw" icon={faCalendar}/>
+                            <FontAwesomeIcon className="fa-fw -ml-20" transform="shrink-9 down-2" icon={fa7} inverse/>
+                        </span>
+                        <h2>A Estadia</h2>
+                        <p>O tempo de duração da locação é de 7 dias corridos. Períodos maiores podem ser negociados.</p>
+                    </div>
+                    <div>
+                        <span className="rounded-full p-1 bg-locamar-primary fa-4x">
+                            <FontAwesomeIcon className="fa-fw" icon={faBrazilianRealSign}/>
+                        </span>
+                        <h2>Preço</h2>
+                        <p>O preço dependerá da localização da caçamba. Horários especiais também podem ser combinados.</p>
+                    </div>
+                    <div>
+                        <span className="rounded-full p-1 bg-locamar-primary fa-4x">
+                            <FontAwesomeIcon className="fa-fw" icon={faArrowsSpin}/>
+                        </span>
+                        <h2>Prorrogação, troca ou retirada</h2>
+                        <p>Ao final do prazo combinado, o cliente tem a opção de solicitar prorrogação do prazo, contratar a troca da caçamba ou confirmar a retirada da mesma.</p>
+                    </div>
                 </div>
             </section>
             <section className="hidden container">

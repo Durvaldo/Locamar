@@ -47,7 +47,7 @@ const HomePageMain = ({className}) => {
                     </div>
                 </div>
             </section>
-            <section id="nosso-servico" className="bg-locamar-black w-full flex justify-center shadow-lg shadow-gray-400">
+            <section id="nosso-servico" className="bg-locamar-black w-full flex justify-center">
                 <div className="container">
                     <h1 className="text-locamar-white text-center pb-5">Nossos Serviços</h1>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
@@ -75,6 +75,9 @@ const HomePageMain = ({className}) => {
                     </div>
                 </div>
             </section>
+            <div className="w-full -mb-[15%]">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#121619" fill-opacity="1" d="M0,128L60,117.3C120,107,240,85,360,69.3C480,53,600,43,720,53.3C840,64,960,96,1080,101.3C1200,107,1320,85,1380,74.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>            
+            </div>
             <section id="onde-estamos" className="container">
                 <h1 className="text-center pb-10">Onde Estamos</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
