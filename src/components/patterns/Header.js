@@ -23,7 +23,7 @@ const Header = ({className}) => {
                 <Link href="/"><img src="/images/locamar-logo.png" alt="Logo Locamar" className="max-h-[100px] mt-[48px]"/></Link>
                 <nav className="relative pr-5 lg:px-0 lg:w-fit">
                     <ul className="text-center">
-                        <li onClick={abrirDropDown}><FontAwesomeIcon className="lg:hidden cursor-pointer scale-x-150" icon={faBars} />
+                        <li className="lg:hidden cursor-pointer scale-x-150" onClick={abrirDropDown}><FontAwesomeIcon icon={faBars} />
                         </li>
                     </ul>
                     <ul className={`${botaoStatus} nav-dropdown`} onClick={fecharDropDown}>
