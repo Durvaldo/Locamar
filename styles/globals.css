@@ -127,7 +127,8 @@
             lg:even:ml-[46%] 
             justify-center 
             items-center 
-            gap-5
+            gap-2
+            sm:gap-5
         ;
     }
 }
