@@ -117,6 +117,8 @@
 
     .quadro-informacoes {
         @apply
+            text-center
+            sm:text-left
             flex 
             lg:odd:flex-row-reverse 
             md:max-w-[600px] 
@@ -126,5 +128,6 @@
             justify-center 
             items-center 
             gap-5
+        ;
     }
 }

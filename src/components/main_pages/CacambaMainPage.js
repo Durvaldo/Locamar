@@ -29,7 +29,7 @@ const CacambaMainPage = ({className}) => {
                         <h1>Como Funciona</h1>
                         <div className="flex flex-col justify-items-stretch gap-y-7">
                             <div className="quadro-informacoes">
-                                <span className="rounded-full px-2 py-3 bg-locamar-primary text-5xl md:text-6xl">
+                                <span className="rounded-full px-2 py-3 scale-75 sm:scale-100 bg-locamar-primary text-5xl md:text-6xl">
                                     <FontAwesomeIcon className="fa-fw" icon={faDumpster}/>
                                 </span>
                                 <div>
@@ -39,7 +39,7 @@ const CacambaMainPage = ({className}) => {
                                 </div>
                             </div>
                             <div className="quadro-informacoes">
-                                <span className="rounded-full px-2 pb-4 pt-3  bg-locamar-primary text-5xl md:text-6xl">
+                                <span className="rounded-full px-2 pb-4 pt-3 scale-75 sm:scale-100 bg-locamar-primary text-5xl md:text-6xl">
                                     <FontAwesomeIcon className="fa-fw" icon={faCalendar}/>
                                     <FontAwesomeIcon className="fa-fw -ml-[60px] md:-ml-[75px]" transform="shrink-9 down-2" icon={fa7} inverse/>
                                 </span>
@@ -50,7 +50,7 @@ const CacambaMainPage = ({className}) => {
                                 </div>
                             </div>
                             <div className="quadro-informacoes">
-                                <span className="rounded-full px-2 py-3 bg-locamar-primary text-5xl md:text-6xl">
+                                <span className="rounded-full px-2 py-3 scale-75 sm:scale-100 bg-locamar-primary text-5xl md:text-6xl">
                                     <FontAwesomeIcon className="fa-fw" icon={faBrazilianRealSign}/>
                                 </span>
                                 <div>
@@ -60,7 +60,7 @@ const CacambaMainPage = ({className}) => {
                                 </div>
                             </div>
                             <div className="quadro-informacoes">
-                                <span className="rounded-full px-2 py-3 bg-locamar-primary text-5xl md:text-6xl">
+                                <span className="rounded-full px-2 py-3 scale-75 sm:scale-100 bg-locamar-primary text-5xl md:text-6xl">
                                     <FontAwesomeIcon className="fa-fw" icon={faArrowsSpin}/>
                                 </span>
                                 <div>
