@@ -13,10 +13,12 @@ const CacambaMainPage = ({className}) => {
                 <div className="container flex flex-col lg:flex-row justify-between items-center gap-5">
                     <div className="flex flex-col gap-5 max-w-3xl">
                         <h2>Precisando fazer descarte de entulho em Montes Claros? Conte com a Locamar Locações!</h2>
-                        <p>A Locamar Locações é especializada em Aluguel de Caçambas de Entulho, para coleta de resíduos de construções e demolições.</p>
-                        <p>Somos uma empresa séria, comprometida com nossos clientes e com o meio ambiente. Todos os materiais recebem destinação correta, em locais autorizados e licenciados. Fornecemos a documentação comprobatória de destinação.</p>
-                        <p>Somos uma empresa séria, comprometida com nossos clientes e com o meio ambiente. Todos os materiais recebem destinação correta, em locais autorizados e licenciados. Fornecemos a documentação comprobatória de destinação.</p>
-                        <p>Trabalhamos com caçambas de 5m³, atendendo todas as regiões de Montes Claros.</p>
+                        <p>
+                            A Locamar Locações é especializada em Aluguel de Caçambas de Entulho, para coleta de resíduos de construções e demolições.
+                            Somos uma empresa séria, comprometida com nossos clientes e com o meio ambiente. Todos os materiais recebem destinação correta, em locais autorizados e licenciados. Fornecemos a documentação comprobatória de destinação.
+                            Somos uma empresa séria, comprometida com nossos clientes e com o meio ambiente. Todos os materiais recebem destinação correta, em locais autorizados e licenciados. Fornecemos a documentação comprobatória de destinação.
+                            Trabalhamos com caçambas de 5m³, atendendo todas as regiões de Montes Claros.
+                        </p>
                     </div>
                     <div>
                         <img className="max-h-80 rounded-full" src="/images/cacamba/cacambas-novas.jpeg" alt="caçambas cheias" />
@@ -25,35 +27,51 @@ const CacambaMainPage = ({className}) => {
             </section>
             <section className="w-full flex justify-center bg-gray-300">
                 <div className="container">
-                    <h1>Como Funciona</h1>
-                    <div>
-                        <span className="rounded-full p-1 bg-locamar-primary fa-4x">
-                            <FontAwesomeIcon className="fa-fw" icon={faDumpster}/>
-                        </span>
-                        <h2>Nossas Caçambas</h2>
-                        <p>Nossas caçambas possuem volume de 6 metros cúbicos, tendo capacidade para 7 toneladas de material.</p>
-                    </div>
-                    <div>
-                        <span className="rounded-full px-1 pb-1  bg-locamar-primary fa-4x">
-                            <FontAwesomeIcon className="fa-fw" icon={faCalendar}/>
-                            <FontAwesomeIcon className="fa-fw -ml-20" transform="shrink-9 down-2" icon={fa7} inverse/>
-                        </span>
-                        <h2>A Estadia</h2>
-                        <p>O tempo de duração da locação é de 7 dias corridos. Períodos maiores podem ser negociados.</p>
-                    </div>
-                    <div>
-                        <span className="rounded-full p-1 bg-locamar-primary fa-4x">
-                            <FontAwesomeIcon className="fa-fw" icon={faBrazilianRealSign}/>
-                        </span>
-                        <h2>Preço</h2>
-                        <p>O preço dependerá da localização da caçamba. Horários especiais também podem ser combinados.</p>
-                    </div>
-                    <div>
-                        <span className="rounded-full p-1 bg-locamar-primary fa-4x">
-                            <FontAwesomeIcon className="fa-fw" icon={faArrowsSpin}/>
-                        </span>
-                        <h2>Prorrogação, troca ou retirada</h2>
-                        <p>Ao final do prazo combinado, o cliente tem a opção de solicitar prorrogação do prazo, contratar a troca da caçamba ou confirmar a retirada da mesma.</p>
+                    <div className="flex flex-col items-center gap-5">
+                        <h1>Como Funciona</h1>
+                        <div className="flex flex-col justify-items-stretch gap-y-7 max-w-lg ">
+                            <div className="flex md:odd:flex-row-reverse justify-center items-center gap-5">
+                                <span className="rounded-full px-2 py-3 bg-locamar-primary text-5xl md:text-6xl">
+                                    <FontAwesomeIcon className="fa-fw" icon={faDumpster}/>
+                                </span>
+                                <div>
+                                    <h2>Nossas Caçambas</h2>
+                                    <p className="text-justify">Nossas caçambas tem volume de 5 metros cúbicos, tendo capacidade para 7 toneladas de material.</p>
+                                    <hr className="mt-2"/>
+                                </div>
+                            </div>
+                            <div className="flex md:odd:flex-row-reverse justify-center items-center gap-5">
+                                <span className="rounded-full px-2 pb-4 pt-3  bg-locamar-primary text-5xl md:text-6xl">
+                                    <FontAwesomeIcon className="fa-fw" icon={faCalendar}/>
+                                    <FontAwesomeIcon className="fa-fw -ml-[60px] md:-ml-[75px]" transform="shrink-9 down-2" icon={fa7} inverse/>
+                                </span>
+                                <div>
+                                    <h2>A Estadia</h2>
+                                    <p className="text-justify">O tempo de duração da locação é de 7 dias corridos. Períodos maiores podem ser negociados.</p>
+                                    <hr className="mt-2"/>
+                                </div>
+                            </div>
+                            <div className="flex md:odd:flex-row-reverse justify-center items-center gap-5">
+                                <span className="rounded-full px-2 py-3 bg-locamar-primary text-5xl md:text-6xl">
+                                    <FontAwesomeIcon className="fa-fw" icon={faBrazilianRealSign}/>
+                                </span>
+                                <div>
+                                    <h2>Preço</h2>
+                                    <p className="text-justify">O preço dependerá da localização da caçamba. Horários especiais também podem ser combinados.</p>
+                                    <hr className="mt-2"/>
+                                </div>
+                            </div>
+                            <div className="flex md:odd:flex-row-reverse justify-center items-center gap-5">
+                                <span className="rounded-full px-2 py-3 bg-locamar-primary text-5xl md:text-6xl">
+                                    <FontAwesomeIcon className="fa-fw" icon={faArrowsSpin}/>
+                                </span>
+                                <div>
+                                    <h2>Prorrogação, troca ou retirada</h2>
+                                    <p className="text-justify">Ao final do prazo combinado, o cliente tem a opção de solicitar prorrogação do prazo, contratar a troca da caçamba ou confirmar a retirada da mesma.</p>
+                                    <hr className="mt-2"/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
