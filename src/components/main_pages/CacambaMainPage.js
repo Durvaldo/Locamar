@@ -11,14 +11,12 @@ const CacambaMainPage = ({className}) => {
             </section>
             <section className="w-full flex justify-center">
                 <div className="container flex flex-col lg:flex-row justify-between items-center gap-5">
-                    <div className="flex flex-col gap-5 max-w-3xl">
+                    <div className="flex flex-col gap-3 max-w-2xl xl:max-w-3xl">
                         <h2>Precisando fazer descarte de entulho em Montes Claros? Conte com a Locamar Locações!</h2>
-                        <p>
-                            A Locamar Locações é especializada em Aluguel de Caçambas de Entulho, para coleta de resíduos de construções e demolições.
-                            Somos uma empresa séria, comprometida com nossos clientes e com o meio ambiente. Todos os materiais recebem destinação correta, em locais autorizados e licenciados. Fornecemos a documentação comprobatória de destinação.
-                            Somos uma empresa séria, comprometida com nossos clientes e com o meio ambiente. Todos os materiais recebem destinação correta, em locais autorizados e licenciados. Fornecemos a documentação comprobatória de destinação.
-                            Trabalhamos com caçambas de 5m³, atendendo todas as regiões de Montes Claros.
-                        </p>
+                        <p className="text-justify">A Locamar Locações é especializada em Aluguel de Caçambas de Entulho, para coleta de resíduos de construções e demolições.</p>
+                        <p className="text-justify">Somos uma empresa séria, comprometida com nossos clientes e com o meio ambiente. Todos os materiais recebem destinação correta, em locais autorizados e licenciados. Fornecemos a documentação comprobatória de destinação.</p>
+                        <p className="text-justify">Somos uma empresa séria, comprometida com nossos clientes e com o meio ambiente. Todos os materiais recebem destinação correta, em locais autorizados e licenciados. Fornecemos a documentação comprobatória de destinação.</p>
+                        <p className="text-justify">Trabalhamos com caçambas de 5m³, atendendo todas as regiões de Montes Claros.</p>
                     </div>
                     <div>
                         <img className="max-h-80 rounded-full" src="/images/cacamba/cacambas-novas.jpeg" alt="caçambas cheias" />
