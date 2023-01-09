@@ -114,4 +114,17 @@
             hover:shadow-gray-600
         ;
     }
+
+    .quadro-informacoes {
+        @apply
+            flex 
+            lg:odd:flex-row-reverse 
+            md:max-w-[600px] 
+            lg:max-w-none 
+            lg:odd:mr-[46%] 
+            lg:even:ml-[46%] 
+            justify-center 
+            items-center 
+            gap-5
+    }
 }

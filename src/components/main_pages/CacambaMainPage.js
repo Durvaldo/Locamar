@@ -27,8 +27,8 @@ const CacambaMainPage = ({className}) => {
                 <div className="container">
                     <div className="flex flex-col items-center gap-5">
                         <h1>Como Funciona</h1>
-                        <div className="flex flex-col justify-items-stretch gap-y-7 max-w-lg ">
-                            <div className="flex md:odd:flex-row-reverse justify-center items-center gap-5">
+                        <div className="flex flex-col justify-items-stretch gap-y-7">
+                            <div className="quadro-informacoes">
                                 <span className="rounded-full px-2 py-3 bg-locamar-primary text-5xl md:text-6xl">
                                     <FontAwesomeIcon className="fa-fw" icon={faDumpster}/>
                                 </span>
@@ -38,7 +38,7 @@ const CacambaMainPage = ({className}) => {
                                     <hr className="mt-2"/>
                                 </div>
                             </div>
-                            <div className="flex md:odd:flex-row-reverse justify-center items-center gap-5">
+                            <div className="quadro-informacoes">
                                 <span className="rounded-full px-2 pb-4 pt-3  bg-locamar-primary text-5xl md:text-6xl">
                                     <FontAwesomeIcon className="fa-fw" icon={faCalendar}/>
                                     <FontAwesomeIcon className="fa-fw -ml-[60px] md:-ml-[75px]" transform="shrink-9 down-2" icon={fa7} inverse/>
@@ -49,7 +49,7 @@ const CacambaMainPage = ({className}) => {
                                     <hr className="mt-2"/>
                                 </div>
                             </div>
-                            <div className="flex md:odd:flex-row-reverse justify-center items-center gap-5">
+                            <div className="quadro-informacoes">
                                 <span className="rounded-full px-2 py-3 bg-locamar-primary text-5xl md:text-6xl">
                                     <FontAwesomeIcon className="fa-fw" icon={faBrazilianRealSign}/>
                                 </span>
@@ -59,7 +59,7 @@ const CacambaMainPage = ({className}) => {
                                     <hr className="mt-2"/>
                                 </div>
                             </div>
-                            <div className="flex md:odd:flex-row-reverse justify-center items-center gap-5">
+                            <div className="quadro-informacoes">
                                 <span className="rounded-full px-2 py-3 bg-locamar-primary text-5xl md:text-6xl">
                                     <FontAwesomeIcon className="fa-fw" icon={faArrowsSpin}/>
                                 </span>
