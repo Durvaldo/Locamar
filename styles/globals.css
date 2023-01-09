@@ -119,6 +119,7 @@
         @apply
             text-center
             sm:text-left
+            lg:odd:text-right
             flex 
             lg:odd:flex-row-reverse 
             md:max-w-[600px] 

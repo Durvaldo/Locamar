@@ -34,7 +34,7 @@ const CacambaMainPage = ({className}) => {
                                 </span>
                                 <div>
                                     <h2>Nossas Caçambas</h2>
-                                    <p className="text-justify">Nossas caçambas tem volume de 5 metros cúbicos, tendo capacidade para 7 toneladas de material.</p>
+                                    <p>Nossas caçambas tem volume de 5 metros cúbicos, tendo capacidade para 7 toneladas de material.</p>
                                     <hr className="mt-2"/>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ const CacambaMainPage = ({className}) => {
                                 </span>
                                 <div>
                                     <h2>A Estadia</h2>
-                                    <p className="text-justify">O tempo de duração da locação é de 7 dias corridos. Períodos maiores podem ser negociados.</p>
+                                    <p>O tempo de duração da locação é de 7 dias corridos. Períodos maiores podem ser negociados.</p>
                                     <hr className="mt-2"/>
                                 </div>
                             </div>
@@ -55,7 +55,7 @@ const CacambaMainPage = ({className}) => {
                                 </span>
                                 <div>
                                     <h2>Preço</h2>
-                                    <p className="text-justify">O preço dependerá da localização da caçamba. Horários especiais também podem ser combinados.</p>
+                                    <p>O preço dependerá da localização da caçamba. Horários especiais também podem ser combinados.</p>
                                     <hr className="mt-2"/>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ const CacambaMainPage = ({className}) => {
                                 </span>
                                 <div>
                                     <h2>Prorrogação, troca ou retirada</h2>
-                                    <p className="text-justify">Ao final do prazo combinado, o cliente tem a opção de solicitar prorrogação do prazo, contratar a troca da caçamba ou confirmar a retirada da mesma.</p>
+                                    <p>Ao final do prazo combinado, o cliente tem a opção de solicitar prorrogação do prazo, contratar a troca da caçamba ou confirmar a retirada da mesma.</p>
                                     <hr className="mt-2"/>
                                 </div>
                             </div>
