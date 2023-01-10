@@ -1,5 +1,5 @@
 import { faCalendar } from "@fortawesome/free-regular-svg-icons";
-import { fa7, faArrowsSpin, faBrazilianRealSign, faDumpster } from "@fortawesome/free-solid-svg-icons";
+import { fa7, faArrowRight, faArrowsSpin, faBrazilianRealSign, faDumpster, faList } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const CacambaMainPage = ({className}) => {
@@ -23,7 +23,7 @@ const CacambaMainPage = ({className}) => {
                     </div>
                 </div>
             </section>
-            <section className="w-full flex justify-center bg-gray-300">
+            <section className="w-full flex justify-center bg-gray-300 shadow-sm shadow-gray-400">
                 <div className="container">
                     <div className="flex flex-col items-center gap-5">
                         <h1>Como Funciona</h1>
@@ -73,72 +73,81 @@ const CacambaMainPage = ({className}) => {
                     </div>
                 </div>
             </section>
-            <section className="hidden container">
-                <h1>Regras e Normas</h1>
-                <div>
-                    <h2>Capacidade</h2>
-                    <p>É proibido exceder a capacidade da caçamba — ultrapassar a borda, seja através de materiais grandes ou pela construção de “paredes” com o próprio material descartado. A função da lona de cobertura é exclusivamente conter a poeira e pequenas partículas durante o transporte e não suporta a contenção do entulho.</p>
+            <section className="container">
+                <div className="flex flex-col items-center">
+                    <h1><FontAwesomeIcon className="scale-75" icon={faList} transform="down-1"/> Regras e Normas</h1>
+                    <p className="text-blue-500 cursor-pointer mt-3 hover:text-blue-700">Veja mais regras <FontAwesomeIcon icon={faArrowRight} transform="down-1"/></p>
                 </div>
-                <div>
-                    <h2>Estacionamento</h2>
-                    <p>A caçamba não poderá ser colocada em local de estacionamento proibido (apenas onde é permitido estacionar veículos). Não sendo permitida a colocação em calçadas, praças, faixa de pedestres, tampa de bueiros… Em zona azul, a autorização deverá ser providenciada pelo usuário — mais informações na MC Trans.</p>
-                </div>
-                <div>
-                    <h2>Materiais</h2>
-                    <p>O material colocado na caçamba é de responsabilidade do cliente</p>
-                    <p>Não serão permitidos materiais diferentes do combinado, veja abaixo os materiais que transportamos.</p>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-3">
+                    <div>
+                        <h2 className="text-center mb-2">Capacidade</h2>
+                        <p className="text-justify">É proibido exceder a capacidade da caçamba — ultrapassar a borda, seja através de materiais grandes ou pela construção de “paredes” com o próprio material descartado. A função da lona de cobertura é exclusivamente conter a poeira e pequenas partículas durante o transporte e não suporta a contenção do entulho.</p>
+                    </div>
+                    <div>
+                        <h2 className="text-center mb-2">Estacionamento</h2>
+                        <p className="text-justify">A caçamba não poderá ser colocada em local de estacionamento proibido (apenas onde é permitido estacionar veículos). Não sendo permitida a colocação em calçadas, praças, faixa de pedestres, tampa de bueiros… Em zona azul, a autorização deverá ser providenciada pelo usuário — mais informações na MC Trans.</p>
+                    </div>
+                    <div>
+                        <h2 className="text-center mb-2">Materiais</h2>
+                        <p className="text-justify">O material colocado na caçamba é de responsabilidade do cliente Não serão permitidos materiais diferentes do combinado, veja abaixo os materiais que transportamos.</p>
+                    </div>
                 </div>
             </section>
-            <section className="hidden container">
-                <h1>Resíduos Que Recolhemos</h1>
-                <div>
-                    <img src="/images/cacamba/entulho.png" alt="" />
-                    <h2>Entulho</h2>
-                    <p>Concreto, Argamassa, alvenaria, cerâmicas, tijolos, blocos , paredes, pisos e terra.</p>
-                </div>
-                <div>
-                    <img src="/images/cacamba/gesso.png" alt="" />
-                    <h2>Gesso</h2>
-                    <p>Gesso em pó de construção civil.</p>
-                </div>
-                <div>
-                    <img src="/images/cacamba/drywall.png" alt="" />
-                    <h2>Gesso Acartonado</h2>
-                    <p>Placas de gesso acartonado ( DRYWALL).</p>
-                </div>
-                <div>
-                    <img src="/images/cacamba/madeira.png" alt="" />
-                    <h2>Madeira</h2>
-                    <p>Madeiras de construção civil como vigas, pontaletes, tábuas, madeirites, pisos laminados, serragem ou qualquer tipo de resíduo que sua constituição seja de madeira.</p>
-                </div>
-                <div>
-                    <img src="/images/cacamba/volumosos.png" alt="" />
-                    <h2>Volumosos</h2>
-                    <p>Papéis , plásticos, Metais. Ex: latas vazias, sacos de cimento, embalagens plásticas, caixas de papelão, etc..</p>
-                </div>
-                <div>
-                    <img src="/images/cacamba/jardinagem.png" alt="" />
-                    <h2>Jardinagem</h2>
-                    <p>Podas de árvore, folhas, galhos, grama.</p>
-                </div>
-                <h1>Resíduos Que Não Recolhemos</h1>
-                <div>
-                    <img src="/images/cacamba/lixo-domestico.png" alt="" />
-                    <h2>Lixo Doméstico</h2>
-                </div>
-                <div>
-                    <img src="/images/cacamba/lixo-hospitalar.png" alt="" />
-                    <h2>Lixo Hospitalar</h2>
-                </div>
-                <div>
-                    <img src="/images/cacamba/lixo-industrial.png" alt="" />
-                    <h2>Lixo Industrial</h2>
-                </div>
-                <div>
-                    <img src="/images/cacamba/produtos-quimicos.png" alt="" />
-                    <h2>Produtos Químicos</h2>
-                </div>
-                <p>Formulario?</p>
+            <section className="container">
+                <article className="flex flex-col items-center">
+                    <h1>Resíduos Que Recolhemos</h1>
+                    <div className="grid grid-cols-3">
+                        <div>
+                            <img src="/images/cacamba/entulho.png" alt="" />
+                            <h2>Entulho</h2>
+                            <p>Concreto, Argamassa, alvenaria, cerâmicas, tijolos, blocos , paredes, pisos e terra.</p>
+                        </div>
+                        <div>
+                            <img src="/images/cacamba/gesso.png" alt="" />
+                            <h2>Gesso</h2>
+                            <p>Gesso em pó de construção civil.</p>
+                        </div>
+                        <div>
+                            <img src="/images/cacamba/drywall.png" alt="" />
+                            <h2>Gesso Acartonado</h2>
+                            <p>Placas de gesso acartonado ( DRYWALL).</p>
+                        </div>
+                        <div>
+                            <img src="/images/cacamba/madeira.png" alt="" />
+                            <h2>Madeira</h2>
+                            <p>Madeiras de construção civil como vigas, pontaletes, tábuas, madeirites, pisos laminados, serragem ou qualquer tipo de resíduo que sua constituição seja de madeira.</p>
+                        </div>
+                        <div>
+                            <img src="/images/cacamba/volumosos.png" alt="" />
+                            <h2>Volumosos</h2>
+                            <p>Papéis , plásticos, Metais. Ex: latas vazias, sacos de cimento, embalagens plásticas, caixas de papelão, etc..</p>
+                        </div>
+                        <div>
+                            <img src="/images/cacamba/jardinagem.png" alt="" />
+                            <h2>Jardinagem</h2>
+                            <p>Podas de árvore, folhas, galhos, grama.</p>
+                        </div>
+                    </div>
+                    <h1>Resíduos Que Não Recolhemos</h1>
+                    <div className="grid grid-cols-3">
+                        <div>
+                            <img src="/images/cacamba/lixo-domestico.png" alt="" />
+                            <h2>Lixo Doméstico</h2>
+                        </div>
+                        <div>
+                            <img src="/images/cacamba/lixo-hospitalar.png" alt="" />
+                            <h2>Lixo Hospitalar</h2>
+                        </div>
+                        <div>
+                            <img src="/images/cacamba/lixo-industrial.png" alt="" />
+                            <h2>Lixo Industrial</h2>
+                        </div>
+                        <div>
+                            <img src="/images/cacamba/produtos-quimicos.png" alt="" />
+                            <h2>Produtos Químicos</h2>
+                        </div>
+                    </div>
+                </article>
             </section>
         </main>
     );
