@@ -1,6 +1,7 @@
 import { faCalendar } from "@fortawesome/free-regular-svg-icons";
 import { fa7, faArrowRight, faArrowsSpin, faBan, faBrazilianRealSign, faCheck, faDumpster, faList } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import MainForm from "../patterns/MainForm";
 
 const CacambaMainPage = ({className}) => {
 
@@ -155,6 +156,14 @@ const CacambaMainPage = ({className}) => {
                         </div>
                     </div>
                 </article>
+            </section>
+            <section className="container">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                    <div className="bg-locamar-secundary m-0 px-[50%] pt-3 pb-[90%] rounded-xl relative">
+                        <img className="object-cover absolute top-[2%] left-[2%] w-[96%] h-[96%]" src="/images/cacamba/cacambas-novas.jpeg" alt="caçambas cheias" />
+                    </div>
+                    <MainForm/>
+                </div>
             </section>
         </main>
     );
