@@ -95,55 +95,55 @@ const CacambaMainPage = ({className}) => {
             </section>
             <section className="container">
                 <article className="flex flex-col items-center">
-                    <h1>Resíduos Que Recolhemos</h1>
-                    <div className="grid grid-cols-3">
-                        <div>
-                            <img src="/images/cacamba/entulho.png" alt="" />
+                    <h1 className="text-center">Resíduos Que Recolhemos</h1>
+                    <div className="my-6 grid grid-cols-3 gap-5 min-w-full text-center">
+                        <div className="flex flex-col gap-2 items-center">
+                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/entulho.png" alt="" />
                             <h2>Entulho</h2>
-                            <p>Concreto, Argamassa, alvenaria, cerâmicas, tijolos, blocos , paredes, pisos e terra.</p>
+                            <p className="hidden md:block">Concreto, Argamassa, alvenaria, cerâmicas, tijolos, blocos , paredes, pisos e terra.</p>
                         </div>
-                        <div>
-                            <img src="/images/cacamba/gesso.png" alt="" />
+                        <div className="flex flex-col gap-2 items-center">
+                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/gesso.png" alt="" />
                             <h2>Gesso</h2>
-                            <p>Gesso em pó de construção civil.</p>
+                            <p className="hidden md:block">Gesso em pó de construção civil.</p>
                         </div>
-                        <div>
-                            <img src="/images/cacamba/drywall.png" alt="" />
+                        <div className="flex flex-col gap-2 items-center">
+                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/drywall.png" alt="" />
                             <h2>Gesso Acartonado</h2>
-                            <p>Placas de gesso acartonado ( DRYWALL).</p>
+                            <p className="hidden md:block">Placas de gesso acartonado ( DRYWALL).</p>
                         </div>
-                        <div>
-                            <img src="/images/cacamba/madeira.png" alt="" />
+                        <div className="flex flex-col gap-2 items-center">
+                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/madeira.png" alt="" />
                             <h2>Madeira</h2>
-                            <p>Madeiras de construção civil como vigas, pontaletes, tábuas, madeirites, pisos laminados, serragem ou qualquer tipo de resíduo que sua constituição seja de madeira.</p>
+                            <p className="hidden md:block">Vigas, pontaletes, tábuas, madeirites, pisos laminados, serragem ou qualquer tipo de resíduo que sua constituição seja de madeira.</p>
                         </div>
-                        <div>
-                            <img src="/images/cacamba/volumosos.png" alt="" />
+                        <div className="flex flex-col gap-2 items-center">
+                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/volumosos.png" alt="" />
                             <h2>Volumosos</h2>
-                            <p>Papéis , plásticos, Metais. Ex: latas vazias, sacos de cimento, embalagens plásticas, caixas de papelão, etc..</p>
+                            <p className="hidden md:block">Papéis , plásticos, Metais. Ex: latas vazias, sacos de cimento, embalagens plásticas, caixas de papelão, etc..</p>
                         </div>
-                        <div>
-                            <img src="/images/cacamba/jardinagem.png" alt="" />
+                        <div className="flex flex-col gap-2 items-center">
+                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/jardinagem.png" alt="" />
                             <h2>Jardinagem</h2>
-                            <p>Podas de árvore, folhas, galhos, grama.</p>
+                            <p className="hidden md:block">Podas de árvore, folhas, galhos, grama.</p>
                         </div>
                     </div>
-                    <h1>Resíduos Que Não Recolhemos</h1>
-                    <div className="grid grid-cols-3">
-                        <div>
-                            <img src="/images/cacamba/lixo-domestico.png" alt="" />
+                    <h1 className="text-center">Resíduos Que Não Recolhemos</h1>
+                    <div className="my-6 grid grid-cols-3 gap-5 min-w-full text-center">
+                        <div className="flex flex-col gap-2 items-center">
+                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-domestico.png" alt="" />
                             <h2>Lixo Doméstico</h2>
                         </div>
-                        <div>
-                            <img src="/images/cacamba/lixo-hospitalar.png" alt="" />
+                        <div className="flex flex-col gap-2 items-center">
+                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-hospitalar.png" alt="" />
                             <h2>Lixo Hospitalar</h2>
                         </div>
-                        <div>
-                            <img src="/images/cacamba/lixo-industrial.png" alt="" />
+                        <div className="flex flex-col gap-2 items-center">
+                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-industrial.png" alt="" />
                             <h2>Lixo Industrial</h2>
                         </div>
-                        <div>
-                            <img src="/images/cacamba/produtos-quimicos.png" alt="" />
+                        <div className="flex flex-col gap-2 items-center">
+                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/produtos-quimicos.png" alt="" />
                             <h2>Produtos Químicos</h2>
                         </div>
                     </div>
