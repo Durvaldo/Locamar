@@ -1,5 +1,5 @@
 import { faCalendar } from "@fortawesome/free-regular-svg-icons";
-import { fa7, faArrowRight, faArrowsSpin, faBrazilianRealSign, faDumpster, faList } from "@fortawesome/free-solid-svg-icons";
+import { fa7, faArrowRight, faArrowsSpin, faBan, faBrazilianRealSign, faCheck, faDumpster, faList } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const CacambaMainPage = ({className}) => {
@@ -12,7 +12,10 @@ const CacambaMainPage = ({className}) => {
             <section className="w-full flex justify-center bg-locamar-white shadow-sm shadow-gray-300">
                 <div className="container flex flex-col lg:flex-row justify-between items-center gap-5">
                     <div className="flex flex-col gap-3 max-w-2xl xl:max-w-3xl">
-                        <h2>Precisando fazer descarte de entulho em Montes Claros? Conte com a Locamar Locações!</h2>
+                        <div className="text-center">
+                            <h2 className="mb-3">Precisando fazer descarte de entulho em Montes Claros ou Taiobeiras? </h2>
+                            <span className="bg-orange-400 rounded-full pt-1 pb-2 px-2 font-bold text-2xl">Conte com a Locamar Locações!</span>
+                        </div>
                         <p className="text-justify">A Locamar Locações é especializada em Aluguel de Caçambas de Entulho, para coleta de resíduos de construções e demolições.</p>
                         <p className="text-justify">Somos uma empresa séria, comprometida com nossos clientes e com o meio ambiente. Todos os materiais recebem destinação correta, em locais autorizados e licenciados. Fornecemos a documentação comprobatória de destinação.</p>
                         <p className="text-justify">Somos uma empresa séria, comprometida com nossos clientes e com o meio ambiente. Todos os materiais recebem destinação correta, em locais autorizados e licenciados. Fornecemos a documentação comprobatória de destinação.</p>
@@ -93,58 +96,62 @@ const CacambaMainPage = ({className}) => {
                     </div>
                 </div>
             </section>
-            <section className="w-full flex justify-center">
-                <article className="flex flex-col items-center container">
-                    <h1 className="text-center">Resíduos Que Recolhemos</h1>
-                    <div className="my-6 grid grid-cols-3 gap-5 min-w-full text-center">
-                        <div className="flex flex-col gap-2 items-center">
-                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/entulho.png" alt="" />
-                            <h2 className="text-xl sm:text-2xl">Entulho</h2>
-                            <p className="hidden md:block">Concreto, Argamassa, alvenaria, cerâmicas, tijolos, blocos , paredes, pisos e terra.</p>
-                        </div>
-                        <div className="flex flex-col gap-2 items-center">
-                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/gesso.png" alt="" />
-                            <h2 className="text-xl sm:text-2xl">Gesso</h2>
-                            <p className="hidden md:block">Gesso em pó de construção civil.</p>
-                        </div>
-                        <div className="flex flex-col gap-2 items-center">
-                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/drywall.png" alt="" />
-                            <h2 className="text-xl sm:text-2xl">Gesso Acartonado</h2>
-                            <p className="hidden md:block">Placas de gesso acartonado ( DRYWALL).</p>
-                        </div>
-                        <div className="flex flex-col gap-2 items-center">
-                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/madeira.png" alt="" />
-                            <h2 className="text-xl sm:text-2xl">Madeira</h2>
-                            <p className="hidden md:block">Vigas, pontaletes, tábuas, madeirites, pisos laminados, serragem ou qualquer tipo de resíduo que sua constituição seja de madeira.</p>
-                        </div>
-                        <div className="flex flex-col gap-2 items-center">
-                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/volumosos.png" alt="" />
-                            <h2 className="text-xl sm:text-2xl">Volumosos</h2>
-                            <p className="hidden md:block">Papéis , plásticos, Metais. Ex: latas vazias, sacos de cimento, embalagens plásticas, caixas de papelão, etc..</p>
-                        </div>
-                        <div className="flex flex-col gap-2 items-center">
-                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/jardinagem.png" alt="" />
-                            <h2 className="text-xl sm:text-2xl">Jardinagem</h2>
-                            <p className="hidden md:block">Podas de árvore, folhas, galhos, grama.</p>
+            <section className="w-full flex justify-center mb-5">
+                <article className="flex flex-col items-center">
+                    <h1 className="text-center py-5">Resíduos Que Recolhemos <FontAwesomeIcon className="text-green-500" transform="down-1" icon={faCheck}/></h1>
+                    <div className="w-full flex justify-center bg-lime-50 rounded-3xl shadow-xl shadow-gray-300">
+                        <div className="grid grid-cols-3 gap-5 min-w-full text-center container">
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/entulho.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Entulho</h2>
+                                <p className="hidden md:block">Concreto, Argamassa, alvenaria, cerâmicas, tijolos, blocos , paredes, pisos e terra.</p>
+                            </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/gesso.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Gesso</h2>
+                                <p className="hidden md:block">Gesso em pó de construção civil.</p>
+                            </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/drywall.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Gesso Acartonado</h2>
+                                <p className="hidden md:block">Placas de gesso acartonado ( DRYWALL).</p>
+                            </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/madeira.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Madeira</h2>
+                                <p className="hidden md:block">Vigas, pontaletes, tábuas, madeirites, pisos laminados, serragem ou qualquer tipo de resíduo que sua constituição seja de madeira.</p>
+                            </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/volumosos.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Volumosos</h2>
+                                <p className="hidden md:block">Papéis , plásticos, Metais. Ex: latas vazias, sacos de cimento, embalagens plásticas, caixas de papelão, etc..</p>
+                            </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/jardinagem.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Jardinagem</h2>
+                                <p className="hidden md:block">Podas de árvore, folhas, galhos, grama.</p>
+                            </div>
                         </div>
                     </div>
-                    <h1 className="text-center">Resíduos Que Não Recolhemos</h1>
-                    <div className="my-6 grid grid-cols-3 gap-5 min-w-full text-center">
-                        <div className="flex flex-col gap-2 items-center">
-                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-domestico.png" alt="" />
-                            <h2 className="text-xl sm:text-2xl">Lixo Doméstico</h2>
-                        </div>
-                        <div className="flex flex-col gap-2 items-center">
-                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-hospitalar.png" alt="" />
-                            <h2 className="text-xl sm:text-2xl">Lixo Hospitalar</h2>
-                        </div>
-                        <div className="flex flex-col gap-2 items-center">
-                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-industrial.png" alt="" />
-                            <h2 className="text-xl sm:text-2xl">Lixo Industrial</h2>
-                        </div>
-                        <div className="flex flex-col gap-2 items-center">
-                            <img className="rounded-full md:rounded-xl" src="/images/cacamba/produtos-quimicos.png" alt="" />
-                            <h2 className="text-xl sm:text-2xl">Produtos Químicos</h2>
+                    <h1 className="text-center py-5">Resíduos Que Não Recolhemos <FontAwesomeIcon className="text-red-500" transform="down-2" icon={faBan}/></h1>
+                    <div className="w-full flex justify-center bg-red-50 rounded-3xl shadow-xl shadow-gray-300">
+                        <div className="grid grid-cols-3 gap-5 min-w-full text-center container">
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-domestico.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Lixo Doméstico</h2>
+                            </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-hospitalar.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Lixo Hospitalar</h2>
+                            </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-industrial.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Lixo Industrial</h2>
+                            </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/produtos-quimicos.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Produtos Químicos</h2>
+                            </div>
                         </div>
                     </div>
                 </article>
