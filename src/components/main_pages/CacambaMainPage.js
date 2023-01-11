@@ -99,7 +99,7 @@ const CacambaMainPage = ({className}) => {
             <section className="w-full flex justify-center mb-5">
                 <article className="flex flex-col items-center">
                     <h1 className="text-center py-5">Resíduos Que Recolhemos <FontAwesomeIcon className="text-green-500" transform="down-1" icon={faCheck}/></h1>
-                    <div className="w-full flex justify-center bg-lime-50 rounded-3xl shadow-xl shadow-gray-300">
+                    <div className="w-full flex justify-center bg-lime-50 lg:rounded-3xl shadow-md lg:shadow-xl shadow-gray-300">
                         <div className="grid grid-cols-3 gap-5 min-w-full text-center container">
                             <div className="flex flex-col gap-2 items-center">
                                 <img className="rounded-full md:rounded-xl" src="/images/cacamba/entulho.png" alt="" />
@@ -134,7 +134,7 @@ const CacambaMainPage = ({className}) => {
                         </div>
                     </div>
                     <h1 className="text-center py-5">Resíduos Que Não Recolhemos <FontAwesomeIcon className="text-red-500" transform="down-2" icon={faBan}/></h1>
-                    <div className="w-full flex justify-center bg-red-50 rounded-3xl shadow-xl shadow-gray-300">
+                    <div className="w-full flex justify-center bg-red-50 lg:rounded-3xl shadow-md lg:shadow-xl shadow-gray-300">
                         <div className="grid grid-cols-3 gap-5 min-w-full text-center container">
                             <div className="flex flex-col gap-2 items-center">
                                 <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-domestico.png" alt="" />
