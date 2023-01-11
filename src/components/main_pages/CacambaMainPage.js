@@ -10,7 +10,7 @@ const CacambaMainPage = ({className}) => {
             <section>
                 <h1 className="container w-auto">Aluguel de cacamba</h1>
             </section>
-            <section className="w-full flex justify-center bg-locamar-white shadow-sm shadow-gray-300">
+            <section className="w-full flex justify-center bg-gray-100 shadow-sm shadow-gray-300">
                 <div className="container flex flex-col lg:flex-row justify-between items-center gap-5">
                     <div className="flex flex-col gap-3 max-w-2xl xl:max-w-3xl">
                         <div className="text-center">
@@ -100,7 +100,7 @@ const CacambaMainPage = ({className}) => {
             <section className="w-full flex justify-center mb-5">
                 <article className="flex flex-col items-center">
                     <h1 className="text-center py-5">Resíduos Que Recolhemos <FontAwesomeIcon className="text-green-500" transform="down-1" icon={faCheck}/></h1>
-                    <div className="w-full flex justify-center bg-lime-50 lg:rounded-3xl shadow-md lg:shadow-xl shadow-gray-300">
+                    <div className="w-full flex flex-col items-center bg-lime-50 lg:rounded-3xl shadow-md lg:shadow-xl shadow-gray-300">
                         <div className="grid grid-cols-3 gap-5 min-w-full text-center container">
                             <div className="flex flex-col gap-2 items-center">
                                 <img className="rounded-full md:rounded-xl" src="/images/cacamba/entulho.png" alt="" />
@@ -132,22 +132,25 @@ const CacambaMainPage = ({className}) => {
                                 <h2 className="text-xl sm:text-2xl">Jardinagem</h2>
                                 <p className="hidden md:block">Podas de árvore, folhas, galhos, grama.</p>
                             </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-domestico.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Lixo Doméstico*</h2>
+                                <p className="hidden md:block">Restos de alimentos, produtos deteriorados, jornais, revistas, embalagens em geral, papel higiênico, etc.</p>
+                            </div>
+                            <div className="flex flex-col gap-2 items-center">
+                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-industrial.png" alt="" />
+                                <h2 className="text-xl sm:text-2xl">Lixo Industrial*</h2>
+                                <p className="hidden md:block">O lixo ou resíduo industrial é aquele proveniente das indústrias, ou seja, do setor secundário.</p>
+                            </div>
                         </div>
+                        <h3 className="self-start ml-5 p-5 font-bold">*Verifique a disponibilidade na sua região</h3>
                     </div>
                     <h1 className="text-center py-5">Resíduos Que Não Recolhemos <FontAwesomeIcon className="text-red-500" transform="down-2" icon={faBan}/></h1>
                     <div className="w-full flex justify-center bg-red-50 lg:rounded-3xl shadow-md lg:shadow-xl shadow-gray-300">
                         <div className="grid grid-cols-3 gap-5 min-w-full text-center container">
                             <div className="flex flex-col gap-2 items-center">
-                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-domestico.png" alt="" />
-                                <h2 className="text-xl sm:text-2xl">Lixo Doméstico</h2>
-                            </div>
-                            <div className="flex flex-col gap-2 items-center">
                                 <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-hospitalar.png" alt="" />
                                 <h2 className="text-xl sm:text-2xl">Lixo Hospitalar</h2>
-                            </div>
-                            <div className="flex flex-col gap-2 items-center">
-                                <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-industrial.png" alt="" />
-                                <h2 className="text-xl sm:text-2xl">Lixo Industrial</h2>
                             </div>
                             <div className="flex flex-col gap-2 items-center">
                                 <img className="rounded-full md:rounded-xl" src="/images/cacamba/produtos-quimicos.png" alt="" />

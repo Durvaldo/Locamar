@@ -84,8 +84,8 @@ const MainForm = ({className}) => {
                         </div>
                     </form>
                 </div>
-                <div className={`${formStatus ? '' : 'hidden'} bg-gray-300 px-3 py-4 sm:p-0 rounded-xl sm:relative`}>
-                    <div className="sm:absolute sm:left-1/2 sm:top-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 min-w-[75%]">
+                <div className={`${formStatus ? '' : 'hidden'} bg-gray-300 px-3 py-4 rounded-xl`}>
+                    <div className="min-w-[75%]">
                         <h2 className="mb-3" >Recebemos o seu orçamento <FontAwesomeIcon icon={faCheck} /></h2>
                         <p>Nossa equipe entrará em contato com você em breve!</p>
                     </div>
