@@ -14,7 +14,7 @@ const CacambaMainPage = ({className}) => {
                     <div className="flex flex-col gap-3 max-w-2xl xl:max-w-3xl">
                         <div className="text-center">
                             <h2 className="mb-3">Precisando fazer descarte de entulho em Montes Claros ou Taiobeiras? </h2>
-                            <span className="bg-orange-400 rounded-full pt-1 pb-2 px-2 font-bold text-2xl">Conte com a Locamar Locações!</span>
+                            <span className="box-decoration-clone bg-orange-400 rounded-full pt-1 pb-2 px-2 font-bold text-2xl">Conte com a Locamar Locações!</span>
                         </div>
                         <p className="text-justify">A Locamar Locações é especializada em Aluguel de Caçambas de Entulho, para coleta de resíduos de construções e demolições.</p>
                         <p className="text-justify">Somos uma empresa séria, comprometida com nossos clientes e com o meio ambiente. Todos os materiais recebem destinação correta, em locais autorizados e licenciados. Fornecemos a documentação comprobatória de destinação.</p>
