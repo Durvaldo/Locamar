@@ -143,7 +143,7 @@ const CacambaMainPage = ({className}) => {
                                 <p className="hidden md:block">O lixo ou resíduo industrial é aquele proveniente das indústrias, ou seja, do setor secundário.</p>
                             </div>
                         </div>
-                        <h3 className="self-start ml-5 p-5 font-bold">*Verifique a disponibilidade na sua região</h3>
+                        <h3 className="self-start lg:ml-5 p-5 font-bold">*Verifique a disponibilidade na sua região</h3>
                     </div>
                     <h1 className="text-center py-5">Resíduos Que Não Recolhemos <FontAwesomeIcon className="text-red-500" transform="down-2" icon={faBan}/></h1>
                     <div className="w-full flex justify-center bg-red-50 lg:rounded-3xl shadow-md lg:shadow-xl shadow-gray-300">
