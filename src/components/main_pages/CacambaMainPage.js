@@ -1,7 +1,8 @@
 import { faCalendar } from "@fortawesome/free-regular-svg-icons";
-import { fa7, faArrowRight, faArrowsSpin, faBan, faBrazilianRealSign, faCheck, faDumpster, faList } from "@fortawesome/free-solid-svg-icons";
+import { fa7, faArrowsSpin, faBan, faBrazilianRealSign, faCheck, faDumpster, faList } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import MainForm from "../patterns/MainForm";
+import MaisRegras from "../patterns/MaisRegras";
 
 const CacambaMainPage = ({className}) => {
 
@@ -79,7 +80,7 @@ const CacambaMainPage = ({className}) => {
                 <div className="container">
                     <div className="flex flex-col items-center">
                         <h1><FontAwesomeIcon className="scale-75" icon={faList} transform="down-1"/> Regras e Normas</h1>
-                        <p className="text-blue-500 cursor-pointer mt-3 hover:text-blue-700">Veja mais regras <FontAwesomeIcon icon={faArrowRight} transform="down-1"/></p>
+                        <MaisRegras/>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-3">
                         <div>
@@ -162,8 +163,8 @@ const CacambaMainPage = ({className}) => {
             </section>
             <section className="container">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <div className="bg-locamar-secundary m-0 px-[50%] pt-3 pb-[90%] rounded-xl relative">
-                        <img className="object-cover absolute top-[2%] left-[2%] w-[96%] h-[96%]" src="/images/cacamba/cacambas-novas.jpeg" alt="caçambas cheias" />
+                    <div className="bg-locamar-secundary p-3 rounded-xl">
+                        <img className="object-cover h-full" src="/images/cacamba/cacambas-novas.jpeg" alt="caçambas cheias" />
                     </div>
                     <MainForm/>
                 </div>
