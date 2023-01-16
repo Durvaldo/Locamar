@@ -8,7 +8,7 @@ export default function MaisRegras() {
 
     return (
         <div className="relative">
-            <p className="text-blue-500 cursor-pointer mt-3 hover:text-blue-700 text-center bg-lime-200" onClick={() => setFormVisivel(true)}>Veja mais regras <FontAwesomeIcon icon={faArrowRight} transform="down-1"/></p>
+            <p className="text-blue-500 cursor-pointer mt-3 hover:text-blue-700 text-center" onClick={() => setFormVisivel(true)}>Veja mais regras <FontAwesomeIcon icon={faArrowRight} transform="down-1"/></p>
             {formVisivel 
                 ? (<div className="fixed top-0 left-0 right-0 bg-[#1216197A] w-screen h-screen flex flex-col justify-center items-center backdrop-blur">
                         <div className="max-w-xl bg-locamar-white relative py-5 px-10 rounded-xl">
