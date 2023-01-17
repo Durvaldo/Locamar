@@ -52,21 +52,21 @@ const HomePageMain = ({className}) => {
                     <h1 className="text-locamar-white text-center pb-5">Nossos Serviços</h1>
                     <div className="flex flex-wrap justify-center gap-5">
                         <Link className="container-card" href="/cacamba">
-                            <img className="max-h-32" src="/images/cacamba-icon.png" alt="cacamba"/>
+                            <img className="max-h-10 sm:max-h-32" src="/images/cacamba-icon.png" alt="cacamba"/>
                             <div className="flex flex-col justify-around mr-5 h-full">
                                 <h2 className="font-bold">Caçambas</h2>
                                 <p> O descarte correto de materiais é de fundamental importância. Pensando nisso, dispomos de grandes quantidades de caçambas estacionárias para locação. </p>
                             </div>
                         </Link>
                         <Link href="/banheiro-ecologico" className="container-card">
-                            <img className="max-h-32" src="/images/banheiro-ecologico-icon.png" alt="Banheiros"/>
+                            <img className="max-h-10 sm:max-h-32" src="/images/banheiro-ecologico-icon.png" alt="Banheiros"/>
                             <div className="flex flex-col justify-around mr-5 h-full">
                                 <h2 className="font-bold">Banheiros</h2>
                                 <p>Aluguel de Banheiros Ecológicos e Quimicos, muito mais economia, higiene e praticidade na sua obra</p>
                             </div>
                         </Link>
                         <Link href="/container" className="container-card">
-                            <img className="max-h-32" src="/images/container-icon.png" alt="Container"/>
+                            <img className="max-h-10 sm:max-h-32" src="/images/container-icon.png" alt="Container"/>
                             <div className="flex flex-col justify-around mr-5 h-full">
                                 <h2 className="font-bold">Containers</h2>
                                 <p> Nossos containers almoxarifado dão a tranquilidade e a facilidade para guardar equipamentos e pertences durante a construção. </p>
