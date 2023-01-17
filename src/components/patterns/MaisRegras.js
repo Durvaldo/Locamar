@@ -14,7 +14,7 @@ export default function MaisRegras() {
                         <div className="max-w-full sm:max-w-3xl bg-locamar-white relative py-4 px-8 rounded-xl overflow-y-auto max-h-[95%]">
                             <div className="absolute hover:bg-gray-400 font-bold py-[0.1rem] rounded-full px-2 cursor-pointer left-[90%] sm:left-[95%] mt-2 -top-0" onClick={() => setFormVisivel(false)}><FontAwesomeIcon icon={faXmark}/></div>
                             <h1 className="text-center mb-3 text-xl sm:text-3xl">Regras e Normas</h1>
-                            <ul className="flex flex-col gap-3 text-sm sm:text-base list-disc list-inside">
+                            <ul className="flex flex-col gap-3 text-base list-disc list-inside">
                                 <li>
                                     Havendo necessidade de troca, comunique com antecedência para que possamos organizar a substituição da caçamba em tempo hábil.
                                 </li>
