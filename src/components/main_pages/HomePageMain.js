@@ -10,9 +10,17 @@ const HomePageMain = ({className}) => {
             <section className="container flex flex-row justify-center flex-wrap lg:flex-nowrap lg:mx-3 gap-5">
                 <div className="flex flex-col justify-around lg:pr-6 lg:-mr-3">
                     <h1>Sobre Nós</h1>
-                    <p className="text-justify my-6">
-                        A <strong>Locamar Locações</strong> iniciou suas atividades na cidade de Montes Claros, no ano de 2017, atuando na Locação de Containers Almoxarifados e Banheiros Ecológicos. Até então, sendo recursos pouco difundidos na nossa região e que hoje se mostram indispensáveis nas obras. <br/>
-                        Atualmente também nos especializamos no aluguel de caçambas estacionárias para coleta de entulhos (Disk entulho) na cidade de Montes Claros. Apesar de sermos novos nesse seguimento, trazemos o know-how acumulado por quase uma década da Ricks Caçambas.
+                    <p className="text-justify mt-6 mb-2 indent-8">
+                        A <strong>Locamar Locações</strong> iniciou suas atividades na cidade de Montes Claros em 2017, oferecendo locação de Containers Almoxarifados e Banheiros Ecológicos em toda região Norte Mineira. Com o objetivo de oferecer soluções eficientes e práticas para as necessidades das obras, a empresa tem se destacado na região.
+                    </p>
+                    <p className="text-justify my-2 indent-8">
+                        Em 2019, a Locamar expandiu seus serviços para incluir containers de escritório. Essa iniciativa foi pensada para atender as necessidades de empresas que precisam de espaços temporários para suas equipes.
+                    </p>
+                    <p className="text-justify my-2 indent-8">
+                        Em 2023, a empresa adicionou banheiros químicos ao seu portfólio e expandiu sua atuação para a cidade de Taiobeiras. Com isso, a Locamar passou a oferecer mais opções de banheiros para sua clientela, garantindo ainda mais higiene e conforto para as obras.
+                    </p>
+                    <p className="text-justify mt-2 mb-6 indent-8">
+                        Além disso, a empresa atua na locação de caçambas estacionárias para coleta de entulhos (Disk entulho) na cidade de Montes Claros e Taiobeiras, trazendo o know-how acumulado por quase uma década da Ricks Caçambas. A Locamar tem se destacado por oferecer soluções completas e eficientes para as necessidades das obras, garantindo a segurança e bem-estar dos trabalhadores.
                     </p>
                     <div className="self-center mt-6 lg:mt-0">
                         <a className="locamar-tag bg-locamar-primary rounded-full py-3 px-4 hover:text-xl text-lg text-locamar-white shadow-sm shadow-locamar-black" href="https://api.whatsapp.com/send/?phone=5508002444444&text&app_absent=0" target="_blank"> <FontAwesomeIcon icon={faWhatsapp}/> ENTRAR EM CONTATO</a>
@@ -55,21 +63,21 @@ const HomePageMain = ({className}) => {
                             <img className="max-h-16 sm:max-h-32" src="/images/cacamba-icon.png" alt="cacamba"/>
                             <div className="flex flex-col justify-around mr-5 h-full">
                                 <h2 className="font-bold">Caçambas</h2>
-                                <p> O descarte correto de materiais é de fundamental importância. Pensando nisso, dispomos de grandes quantidades de caçambas estacionárias para locação. </p>
+                                <p className="text-justify">Caçambas para locação garantindo descarte responsável de materiais. Grandes quantidades disponíveis, transporte e descarte seguros. </p>
                             </div>
                         </Link>
                         <Link href="/banheiro-ecologico" className="container-card">
                             <img className="max-h-16 sm:max-h-32" src="/images/banheiro-ecologico-icon.png" alt="Banheiros"/>
                             <div className="flex flex-col justify-around mr-5 h-full">
                                 <h2 className="font-bold">Banheiros</h2>
-                                <p>Aluguel de Banheiros Ecológicos e Quimicos, muito mais economia, higiene e praticidade na sua obra</p>
+                                <p className="text-justify">Não perca tempo e dinheiro com banheiros inapropriados na sua obra, alugue conosco, garantindo economia, higiene e segurança para seus trabalhadores.</p>
                             </div>
                         </Link>
                         <Link href="/container" className="container-card">
                             <img className="max-h-16 sm:max-h-32" src="/images/container-icon.png" alt="Container"/>
                             <div className="flex flex-col justify-around mr-5 h-full">
                                 <h2 className="font-bold">Containers</h2>
-                                <p> Nossos containers almoxarifado dão a tranquilidade e a facilidade para guardar equipamentos e pertences durante a construção. </p>
+                                <p className="text-justify">Nossos containers almoxarifado dão a tranquilidade e a facilidade para guardar equipamentos e pertences durante a construção. </p>
                             </div>
                         </Link>
                     </div>
