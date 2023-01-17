@@ -64,7 +64,7 @@ const HomePageMain = ({className}) => {
                             <div className="flex flex-col justify-around mr-5 h-full cursor-default items-center">
                                 <h2 className="font-bold text-left lg:w-full">Caçambas</h2>
                                 <p className="text-xs sm:text-sm md:text-base">Locação de caçambas para descarte responsável de entulhos em eventos, construções e mais. Grandes quantidades disponíveis, transporte e descarte seguros. </p>
-                                <Link className="text-center font-bold text-locamar-white bg-locamar-secundary shadow-sm shadow-gray-400 w-1/2 rounded-full px-2 py-1 hover:scale-105" href="/cacamba">Saiba mais</Link>
+                                <Link className="text-center mt-3 font-bold text-locamar-white bg-locamar-secundary shadow-sm shadow-gray-400 w-1/2 rounded-full px-2 py-1 hover:scale-105" href="/cacamba">Saiba mais</Link>
                             </div>
                         </div>
                         <div className="container-card">
@@ -72,7 +72,7 @@ const HomePageMain = ({className}) => {
                             <div className="flex flex-col justify-around mr-5 h-full cursor-default items-center">
                                 <h2 className="font-bold text-left lg:w-full">Banheiros</h2>
                                 <p className="text-xs sm:text-sm md:text-base">Não perca tempo e dinheiro com banheiros inapropriados na sua obra, alugue conosco, garantindo economia, higiene e segurança para seus trabalhadores.</p>
-                                <Link className="text-center font-bold text-locamar-white bg-locamar-secundary shadow-sm shadow-gray-400 w-1/2 rounded-full px-2 py-1 hover:scale-105" href="/banheiro-ecologico">Saiba mais</Link>
+                                <Link className="text-center mt-3 font-bold text-locamar-white bg-locamar-secundary shadow-sm shadow-gray-400 w-1/2 rounded-full px-2 py-1 hover:scale-105" href="/banheiro-ecologico">Saiba mais</Link>
                             </div>
                         </div>
                         <div className="container-card">
@@ -80,7 +80,7 @@ const HomePageMain = ({className}) => {
                             <div className="flex flex-col justify-around mr-5 h-full cursor-default items-center">
                                 <h2 className="font-bold text-left lg:w-full">Containers</h2>
                                 <p className="text-xs sm:text-sm md:text-base">Nossos containers almoxarifado dão a tranquilidade e a facilidade para guardar equipamentos e pertences durante a construção. </p>
-                                <Link className="text-center font-bold text-locamar-white bg-locamar-secundary shadow-sm shadow-gray-400 w-1/2 rounded-full px-2 py-1 hover:scale-105" href="/container">Saiba mais</Link>
+                                <Link className="text-center mt-3 font-bold text-locamar-white bg-locamar-secundary shadow-sm shadow-gray-400 w-1/2 rounded-full px-2 py-1 hover:scale-105" href="/container">Saiba mais</Link>
                             </div>
                         </div>
                     </div>
