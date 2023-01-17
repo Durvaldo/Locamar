@@ -11,7 +11,7 @@ export default function MaisRegras() {
             <p className="text-blue-500 cursor-pointer mt-3 hover:text-blue-700 text-center" onClick={() => setFormVisivel(true)}>Veja mais regras <FontAwesomeIcon icon={faArrowRight} transform="down-1"/></p>
             {formVisivel 
                 ? (<div className="fixed top-0 left-0 right-0 bg-[#1216197A] w-screen h-screen flex flex-col justify-center items-center backdrop-blur">
-                        <div className="max-w-full sm:max-w-3xl bg-locamar-white relative py-4 px-8 rounded-xl overflow-y-auto max-h-[95vh]">
+                        <div className="max-w-full sm:max-w-3xl bg-locamar-white relative py-4 px-8 rounded-xl overflow-y-auto max-h-[80vh]">
                             <div className="absolute hover:bg-gray-400 font-bold py-[0.1rem] rounded-full px-2 cursor-pointer left-[90%] sm:left-[95%] mt-2 -top-0" onClick={() => setFormVisivel(false)}><FontAwesomeIcon icon={faXmark}/></div>
                             <h1 className="text-center mb-3 text-xl sm:text-3xl">Regras e Normas</h1>
                             <ul className="flex flex-col gap-3 text-base list-disc list-inside">
