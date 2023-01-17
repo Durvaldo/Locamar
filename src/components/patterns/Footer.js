@@ -12,7 +12,7 @@ const Footer = ({className}) => {
                         <FontAwesomeIcon className="text-4xl" icon={faMapLocationDot}/>
                         <div className="flex flex-col gap-1">
                             <h2 className="text-xl font-bold">Endereço</h2>
-                            <p>Rua Silas Canelas n°92 <br/> Cidade Nova, Montes Claros/MG</p>
+                            <p>Rua Silas Canelas n°92 <br/> Cidade Nova, Montes Claros/MG <br/> CEP: 39401-009</p>
                         </div>
                     </div>
                     <div className="flex flex-col gap-1 my-3 w-fit sm:w-80 place-self-center">
