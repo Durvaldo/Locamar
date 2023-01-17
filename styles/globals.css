@@ -75,7 +75,9 @@
 
     .container-card {
         @apply
-            bg-locamar-white 
+            bg-locamar-white
+            max-w-[540px] 
+            lg:w-auto
             rounded-lg 
             p-2
             flex

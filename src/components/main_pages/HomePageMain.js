@@ -20,7 +20,7 @@ const HomePageMain = ({className}) => {
                 </div>
                 <div className="self-center mt-4 lg:mt-0"><img className="rounded-lg shadow-sm shadow-locamar-black" src="/images/cacamba.png" alt="cacamba"/></div>
             </section>
-            <section id="missao" className="container grid md:grid-cols-4 lg:grid-cols-3 gap-5">
+            <section id="missao" className="container grid md:grid-cols-4 lg:grid-cols-3 gap-5 my-5 lg:my-16">
                 <div className="missao-card md:col-span-2 lg:col-span-1">
                     <FontAwesomeIcon className="fa-3x" icon={faBullseye}/>
                     <div>
@@ -50,25 +50,25 @@ const HomePageMain = ({className}) => {
             <section id="nosso-servico" className="bg-locamar-black w-full flex justify-center">
                 <div className="container">
                     <h1 className="text-locamar-white text-center pb-5">Nossos Serviços</h1>
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    <div className="flex flex-wrap justify-center gap-5">
                         <Link className="container-card" href="/cacamba">
-                            <img className="max-h-16" src="/images/cacamba-icon.png" alt="cacamba"/>
-                            <div>
-                                <h3 className="text-lg font-bold">Locação de caçambas estacionárias</h3>
+                            <img className="max-h-32" src="/images/cacamba-icon.png" alt="cacamba"/>
+                            <div className="flex flex-col justify-around mr-5 h-full">
+                                <h2 className="font-bold">Caçambas</h2>
                                 <p> O descarte correto de materiais é de fundamental importância. Pensando nisso, dispomos de grandes quantidades de caçambas estacionárias para locação. </p>
                             </div>
                         </Link>
                         <Link href="/banheiro-ecologico" className="container-card">
-                            <img className="max-h-16" src="/images/banheiro-ecologico-icon.png" alt="Banheiros"/>
-                            <div>
-                                <h3 className="text-lg font-bold">Banheiros ecológicos</h3>
-                                <p>Aluguel de Banheiros Ecológicos, muito mais economia, higiene e praticidade na sua obra</p>
+                            <img className="max-h-32" src="/images/banheiro-ecologico-icon.png" alt="Banheiros"/>
+                            <div className="flex flex-col justify-around mr-5 h-full">
+                                <h2 className="font-bold">Banheiros</h2>
+                                <p>Aluguel de Banheiros Ecológicos e Quimicos, muito mais economia, higiene e praticidade na sua obra</p>
                             </div>
                         </Link>
                         <Link href="/container" className="container-card">
-                            <img className="max-h-16" src="/images/container-icon.png" alt="Container"/>
-                            <div>
-                                <h3 className="text-lg font-bold">Locação de Containers Almoxarifado</h3>
+                            <img className="max-h-32" src="/images/container-icon.png" alt="Container"/>
+                            <div className="flex flex-col justify-around mr-5 h-full">
+                                <h2 className="font-bold">Containers</h2>
                                 <p> Nossos containers almoxarifado dão a tranquilidade e a facilidade para guardar equipamentos e pertences durante a construção. </p>
                             </div>
                         </Link>
@@ -76,7 +76,7 @@ const HomePageMain = ({className}) => {
                 </div>
             </section>
             <div className="w-full -mb-[15%]">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#121619" fill-opacity="1" d="M0,128L60,117.3C120,107,240,85,360,69.3C480,53,600,43,720,53.3C840,64,960,96,1080,101.3C1200,107,1320,85,1380,74.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>            
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#121619" fillOpacity="1" d="M0,128L60,117.3C120,107,240,85,360,69.3C480,53,600,43,720,53.3C840,64,960,96,1080,101.3C1200,107,1320,85,1380,74.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>            
             </div>
             <section id="onde-estamos" className="container">
                 <h1 className="text-center pb-10">Onde Estamos</h1>

@@ -9,7 +9,7 @@ const CacambaMainPage = ({className}) => {
     return (
         <main className={`${className} flex flex-col items-center`}>
             <section>
-                <h1 className="container w-auto">Aluguel de cacamba</h1>
+                <h1 className="container w-auto">Aluguel de caçamba</h1>
             </section>
             <section className="w-full flex justify-center bg-gray-100 shadow-sm shadow-gray-300">
                 <div className="container flex flex-col lg:flex-row justify-between items-center gap-5">

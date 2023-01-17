@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons"
 
 const Footer = ({className}) => {
     return(
@@ -7,17 +8,20 @@ const Footer = ({className}) => {
             <div className="text-center bg-locamar-black">
                 <div className="bg-gray-500 flex justify-center"><img src="/images/locamar-logo.png" alt="Logo Locamar" className="max-h-20 md:max-h-40"/></div>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start justify-around flex-wrap text-locamar-white">
-                    <div className="flex flex-col mx-1 my-3 rounded-sm gap-1">
-                        <h2 className="text-xl font-bold">Endereço</h2>
-                        <p>Rua Silas Canelas, 92, Bairro Cidade Nova – Montes Claros – MG</p>
+                    <div className="flex flex-row justify-around rounded-lg my-3 items-center w-80 place-self-center text-left bg-gray-600 hover:bg-gray-500 py-5">
+                        <FontAwesomeIcon className="text-4xl" icon={faMapLocationDot}/>
+                        <div className="flex flex-col gap-1">
+                            <h2 className="text-xl font-bold">Endereço</h2>
+                            <p>Rua Silas Canelas n°92 <br/> Cidade Nova, Montes Claros/MG</p>
+                        </div>
                     </div>
-                    <div className="flex flex-col mx-1 my-3 rounded-sm gap-1">
+                    <div className="flex flex-col gap-1 my-3 w-fit sm:w-80 place-self-center">
                         <h2 className="text-xl font-bold">Contato</h2>
                         <p><FontAwesomeIcon className="text-lime-500" icon={faWhatsapp}/> 0800 244 4444</p>
                         <p>(38) 3222-4444</p>
                         <p>atendimento@locamarlocacoes.com.br</p>
                     </div>
-                    <div className="flex flex-col mx-1 my-3 rounded-sm gap-1">
+                    <div className="flex flex-col gap-1 my-3 w-fit sm:w-80 place-self-center">
                         <h2 className="text-xl font-bold">Horário de Atendimento</h2>
                         <p>Segunda a Sexta</p>
                         <p>Das 7 às 17 horas</p>
