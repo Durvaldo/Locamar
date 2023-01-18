@@ -18,7 +18,7 @@ const Header = ({className}) => {
     }
     return (
         <header className={className}>  
-            <div className="px-3 mb-5 lg:mb-0 flex justify-between lg:justify-around items-center bg-locamar-primary shadow-sm shadow-gray-500 max-h-[70px]">
+            <div className="px-3 mb-0 flex justify-between lg:justify-around items-center bg-locamar-primary shadow-sm shadow-gray-500 max-h-[70px] relative">
                 <div className="text-locamar-primary block lg:hidden"></div>
                 <Link href="/"><img src="/images/locamar-logo.png" alt="Logo Locamar" className="max-h-[100px] mt-[48px]"/></Link>
                 <nav className="relative pr-5 lg:px-0 lg:w-fit">

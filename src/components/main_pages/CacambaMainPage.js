@@ -98,10 +98,10 @@ const CacambaMainPage = ({className}) => {
                     </div>
                 </div>
             </section>
-            <section className="w-full flex justify-center mb-5">
+            <section className="w-full flex justify-center my-5">
                 <article className="flex flex-col items-center">
-                    <h1 className="text-center py-5">Resíduos Que Recolhemos <FontAwesomeIcon className="text-green-500" transform="down-1" icon={faCheck}/></h1>
-                    <div className="w-full flex flex-col items-center bg-lime-50 lg:rounded-3xl shadow-md lg:shadow-xl shadow-gray-300">
+                    <h1 className="text-center py-5 mt-5">Resíduos Que Recolhemos <FontAwesomeIcon className="text-green-500" transform="down-1" icon={faCheck}/></h1>
+                    <div className="w-full flex flex-col items-center">
                         <div className="grid grid-cols-3 gap-5 min-w-full text-center container">
                             <div className="flex flex-col gap-2 items-center">
                                 <img className="rounded-full md:rounded-xl" src="/images/cacamba/entulho.png" alt="" />
@@ -146,8 +146,9 @@ const CacambaMainPage = ({className}) => {
                         </div>
                         <h3 className="self-start lg:ml-5 p-5 font-bold">*Verifique a disponibilidade na sua região</h3>
                     </div>
+                    <span className="border border-gray-100 w-1/2 rounded-full my-5"></span>
                     <h1 className="text-center py-5">Resíduos Que Não Recolhemos <FontAwesomeIcon className="text-red-500" transform="down-2" icon={faBan}/></h1>
-                    <div className="w-full flex justify-center bg-red-50 lg:rounded-3xl shadow-md lg:shadow-xl shadow-gray-300">
+                    <div className="w-full flex justify-center">
                         <div className="grid grid-cols-3 gap-5 min-w-full text-center container">
                             <div className="flex flex-col gap-2 items-center">
                                 <img className="rounded-full md:rounded-xl" src="/images/cacamba/lixo-hospitalar.png" alt="" />
@@ -161,7 +162,7 @@ const CacambaMainPage = ({className}) => {
                     </div>
                 </article>
             </section>
-            <section className="container">
+            <section className="container mt-10">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div className="bg-locamar-secundary p-3 rounded-xl">
                         <img className="object-cover h-full" src="/images/cacamba/cacambas-novas.jpeg" alt="caçambas cheias" />
